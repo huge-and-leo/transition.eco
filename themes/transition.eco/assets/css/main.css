@@ -1,22 +1,146 @@
+:root {
+    --primary-color: #69BFAB;
+    --secondary-color: #83D0F5;
+
+    --black: #2A363B;
+    --red: #F67280;
+    --red-dark: #C06C84;
+    --orange: #F8B195;
+    --yellow: #FECEAB;
+    --white: #FFF;
+}
+
 body {
-  color: #222;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+    color: #222;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 1rem;
+    max-width: 768px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Impact', sans-serif;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    color: var(--primary-color)
 }
 
 header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
+    border-top: 1px solid #222;
+    margin-top: 1rem;
 }
 
+strong {
+    color: var(--primary-color);
+}
+
+
 a {
-  color: #00e;
-  text-decoration: none;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/**
+ Change select color
+ */
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: var(--primary-color);
+}
+
+::selection {
+    color: white;
+    background: var(--primary-color);
+}
+
+
+/**
+  Site title
+ */
+.site-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-logo {
+    max-width: 10rem;
+}
+
+
+/**
+ Site menu
+ */
+.site-menu {
+    margin: 50px 0;
+    background-color: var(--primary-color);
+}
+
+.site-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.site-menu ul li {
+    display: inline-block;
+    background-color: var(--primary-color);
+}
+
+.site-menu a {
+    display: block;
+    padding: 1rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.site-menu a:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Hide Dropdowns by Default */
+.site-menu ul ul {
+    display: none;
+    position: absolute;
+}
+
+/* Display Dropdowns on Hover */
+.site-menu ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+.site-menu ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+.site-menu ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+    content: ' +';
+}
+
+li > a:only-child:after {
+    content: '';
 }

@@ -1,7 +1,7 @@
-name = 'Theme name'
+name = 'transition'
 license = 'MIT'
 licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+description = 'Theme developed for the transition.eco website'
 
 # The home page of the theme, where the source can be found
 homepage = 'https://github.com/owner/repo'
