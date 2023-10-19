@@ -1,0 +1,4 @@
+baseURL = 'https://transition.eco/'
+languageCode = 'fr-ch'
+title = 'transition'
+theme = 'transition.eco'
