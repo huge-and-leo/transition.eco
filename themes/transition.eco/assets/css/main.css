@@ -46,6 +46,10 @@ a {
     text-decoration: none;
 }
 
+ul a.active {
+    font-weight: bold;
+}
+
 /* internal relative link */
 /* https://css-tricks.com/snippets/css/style-links-depending-on-destination/ */
 main a:not([href^="http"]):before {
