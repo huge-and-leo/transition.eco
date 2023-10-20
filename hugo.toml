@@ -21,3 +21,36 @@ defaultContentLanguageInSubdir = true
             languageDirection = 'ltr'
             languageName = 'English'
             weight = 2
+
+[[menus.main]]
+name = 'Accueil'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Services'
+pageRef = '/services'
+weight = 20
+
+    [[menus.main]]
+    parent= 'Services'
+    name = 'Analyser'
+    pageRef = '/services/analyser'
+    weight = 10
+
+    [[menus.main]]
+    parent= 'Services'
+    name = 'Informer'
+    pageRef = '/services/informer'
+    weight = 20
+
+    [[menus.main]]
+    parent= 'Services'
+    name = 'Former'
+    pageRef = '/services/former'
+    weight = 30
+
+[[menus.main]]
+name = 'Portrait'
+pageRef = '/portrait'
+weight = 30
