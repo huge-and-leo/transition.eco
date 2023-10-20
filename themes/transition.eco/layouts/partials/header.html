@@ -1,5 +1,25 @@
 <h1 class="site-title-container">
-    <img src="/Logo_Transition.png" class="site-logo"/>
+    {{/*<img src="/Logo_Transition.png" class="site-logo"/>*/}}
     {{/*<span class="site-title">{{ site.Title }}</span>*/}}
 </h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+
+<div class="menu-and-logo">
+    <div class="logo">
+        <a href="{{ .Site.BaseURL }}">
+            <img src="Logo_Transition.png" alt="Your Logo">
+        </a>
+    </div>
+    <div class="menu-left">
+        <ul>
+            {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+
+  
+
+{{/*{{ partial "menu.html" (dict "menuID" "main" "page" .) }}*/}}

@@ -12,10 +12,11 @@
 
 body {
     color: #222;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: sans-serif;
+    font-weight: 200;
     line-height: 1.5;
-    margin: 1rem;
+    margin: 13rem;
     max-width: 768px;
 }
 
@@ -90,6 +91,7 @@ img {
     padding: 0;
     margin: 0;
     list-style: none;
+    list-style-type: none;
     position: relative;
 }
 
@@ -130,6 +132,94 @@ img {
 
 /* Second, Third and more Tiers	*/
 .site-menu ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+    content: ' +';
+}
+
+li > a:only-child:after {
+    content: '';
+}
+
+
+/*Left-side Menu*/
+
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 3rem;
+    width: 100%;
+    background-color: none; /* Set your desired background color */
+    color: none; /* Set the text color */
+    padding: 10px 0;
+    z-index: 1000; /* Set a high z-index to ensure it appears above other content */
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+}
+
+.menu-left {
+    position: fixed;
+    top: 10rem;
+    left: 0;
+    width: 200px; /* Adjust the width as needed */
+    height: 100%;
+    background-color: none; /* Optional background color */
+    {{/*border: 1px solid var(--secondary-color);*/}}
+}
+
+
+.menu-left ul {
+   
+    list-style: none;
+    list-style-type: none;
+}
+
+.menu-left ul li {
+    display: block;
+    background-color: none;
+}
+
+.menu-left a {
+    display: block;
+    padding: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.menu-left a:hover {
+    color: var(--secondary-color)
+}
+
+/* Hide Dropdowns by Default */
+.menu-left ul ul {
+    display: none;
+    position: absolute;
+}
+
+/* Display Dropdowns on Hover */
+.menu-left ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+.menu-left ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+.menu-left ul ul ul li {
     position: relative;
     top: -60px;
     left: 170px;
