@@ -4,6 +4,8 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
+# EN-US
+
 Le bureau de conseil **TRANSITION** accompagne les acteurs et actrices des domaines privés et publiques dans leurs démarches pour une société plus durable. Les conseils sont basés sur des modélisations qui permettent de prendre des décisions fondées, concrètes et rationnelles.
 
 ## Transition

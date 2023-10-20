@@ -6,6 +6,8 @@ summary = 'La prise de conscience de l’urgence environnementale pousse notre s
 weight = 20
 +++
 
+# DE-CH
+
 L’urgence climatique nous pousse à agir vite et prendre des décisions durables. Puisque tous les secteurs sont touchés mais à des degrés différents, il est parfois difficile de garder une vus d’ensemble sur les projets en cours et à venir, les législations qui sont développées ainsi que sur les technologies disponibles.
 
 Afin de pouvoir vous positionner stratégiquement et efficacement sur le long-terme, nous vous aidons à y voir plus claire et vous informons à propos du développement durable dans votre secteur d’activité.
