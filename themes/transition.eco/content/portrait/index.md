@@ -14,4 +14,4 @@ Les valeurs de l’entreprise sont l’**efficacité**, l’**humanisme**, l’*
 ## Léonard Marchand
 Formé à l’Ecole polytechnique fédérale de Zürich (ETHZ), Léonard Marchand est ingénieur en environnement spécialisé dans la conception écologique de systèmes (Ecological System Design) et dans l’analyse de cycles de vie. Ayant la chance d’évoluer professionnellement dans le domaine du conseil depuis plusieurs années, il a pu perfectionner son approche des défis environnementaux. De langue maternelle francophone, Léonard parle couramment l’Allemand et l’Anglais.
 
-![Léonard Marchard](/04ad59ec-bf08-4ecb-a727-b702ca01a5a4.jpg)
+![Léonard Marchard](leonard-marchand-photo.jpg)
