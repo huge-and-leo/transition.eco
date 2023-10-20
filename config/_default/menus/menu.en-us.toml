@@ -1,0 +1,32 @@
+[[main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[main]]
+name = 'Services'
+pageRef = '/services'
+weight = 20
+
+    [[main]]
+    parent= 'Services'
+    name = 'Analyze'
+    pageRef = '/services/analyser'
+    weight = 10
+
+    [[main]]
+    parent= 'Services'
+    name = 'Inform'
+    pageRef = '/services/informer'
+    weight = 20
+
+    [[main]]
+    parent= 'Services'
+    name = 'Train'
+    pageRef = '/services/former'
+    weight = 30
+
+[[main]]
+name = 'Portrait'
+pageRef = '/portrait'
+weight = 30
