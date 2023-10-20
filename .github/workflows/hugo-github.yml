@@ -33,21 +33,44 @@ jobs:
     env:
       HUGO_VERSION: 0.114.0
     steps:
+      - name: Cache Hugo binary
+        id: cache-hugo
+        uses: actions/cache@v2
+        with:
+          path: ${{ runner.temp }}/hugo.deb
+          key: hugo-${{ runner.os }}-${{ hashFiles('**/*.lock') }}
+          restore-keys: |
+            hugo-${{ runner.os }}-
+            hugo-
+
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
+          if [[ ! -f ${{ runner.temp }}/hugo.deb ]]; then
+            wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          fi
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+
+      - name: Cache Node.js dependencies
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: node-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            node-${{ runner.os }}-
+
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: npm ci
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -57,6 +80,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
