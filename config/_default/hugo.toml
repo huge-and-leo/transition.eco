@@ -1,7 +1,7 @@
 # this is the default configuration of the site, feel free to add additional ones (e.g. /config/staging/, /config/production/, etc..)
 baseURL = 'https://transition.eco/'
 languageCode = 'fr-ch'
-title = 'transition'
+title = 'transition.eco'
 theme = 'transition.eco'
 defaultContentLanguage = 'fr-ch'
 defaultContentLanguageInSubdir = true

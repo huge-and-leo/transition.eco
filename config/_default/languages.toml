@@ -3,13 +3,19 @@
     languageDirection = 'ltr'
     languageName = 'Français (Suisse)'
     weight = 1
+    [fr-ch.params]
+        copyright = 'Tous droits reservés'
 [de-ch]
     languageCode = 'de-CH'
     languageDirection = 'ltr'
     languageName = 'Deutsch (Schweiz)'
     weight = 2
+    [de-ch.params]
+        copyright = 'Alle Rechte vorbehalten'
 [en-us]
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
     weight = 2
+    [en-us.params]
+        copyright = 'All rights reserved'
