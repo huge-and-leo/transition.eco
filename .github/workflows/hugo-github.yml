@@ -69,7 +69,12 @@ jobs:
             node-${{ runner.os }}-
 
       - name: Install Node.js dependencies
-        run: npm ci
+        run: |
+          if [[ -f package-lock.json ]]; then
+            npm ci
+          else
+            npm install
+          fi
 
       - name: Build with Hugo
         env:
