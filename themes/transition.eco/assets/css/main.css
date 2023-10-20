@@ -11,13 +11,11 @@
 }
 
 body {
-    color: #222;
-    font-size: 1rem;
+    color: var(--black);
+    font-size: 1.5rem;
     font-family: sans-serif;
-    font-weight: 200;
-    line-height: 1.5;
-    margin: 13rem;
-    max-width: 768px;
+    line-height: 1.75;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,28 +25,32 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color)
 }
 
-header {
-    margin-bottom: 1rem;
-}
-
-footer {
-    border-top: 1px solid #222;
-    margin-top: 1rem;
+img {
+    max-width: 100%;
 }
 
 strong {
     color: var(--primary-color);
 }
 
-
 a {
     color: var(--secondary-color);
     text-decoration: none;
 }
 
-ul a.active {
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav > ul  {
+    padding: 0;
+}
+
+nav a.active {
     font-weight: bold;
 }
+
 
 /* internal relative link */
 /* https://css-tricks.com/snippets/css/style-links-depending-on-destination/ */
@@ -56,14 +58,8 @@ main a:not([href^="http"]):before {
     content: '→ ';
 }
 
-img {
-    max-width: 100%;
-}
 
-
-/**
- Change select color
- */
+/* Change select color */
 ::-moz-selection { /* Code for Firefox */
     color: white;
     background: var(--primary-color);
@@ -76,171 +72,52 @@ img {
 
 
 /**
-  Site title
+  *
+  * Individual elements
+  *
  */
-.site-title-container {
+
+body {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-areas:
+        "site-header-area site-main-area"
+        "site-nav-area site-main-area"
+        "site-nav-area site-footer-area";
+    grid-template-columns: 17rem 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.site-header,
+.site-nav,
+.site-main,
+.site-footer {
+    padding: 1rem;
+}
+
+.site-header {
+    grid-area: site-header-area;
+}
+
+.site-nav {
+    grid-area: site-nav-area;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.site-logo {
-    max-width: 10rem;
+.main-menu {
+    flex: 1;
 }
 
+.lang-menu {
 
-/**
- Site menu
- */
-.site-menu {
-    margin: 50px 0;
-    background-color: var(--primary-color);
 }
 
-.site-menu ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    list-style-type: none;
-    position: relative;
+.site-main {
+    grid-area: site-main-area;
+    max-width: 60rem;
 }
 
-.site-menu ul li {
-    display: inline-block;
-    background-color: var(--primary-color);
-}
-
-.site-menu a {
-    display: block;
-    padding: 1rem;
-    color: #FFF;
-    text-decoration: none;
-}
-
-.site-menu a:hover {
-    background-color: var(--secondary-color);
-}
-
-/* Hide Dropdowns by Default */
-.site-menu ul ul {
-    display: none;
-    position: absolute;
-}
-
-/* Display Dropdowns on Hover */
-.site-menu ul li:hover > ul {
-    display: inherit;
-}
-
-/* Fisrt Tier Dropdown */
-.site-menu ul ul li {
-    width: 170px;
-    float: none;
-    display: list-item;
-    position: relative;
-}
-
-/* Second, Third and more Tiers	*/
-.site-menu ul ul ul li {
-    position: relative;
-    top: -60px;
-    left: 170px;
-}
-
-
-/* Change this in order to change the Dropdown symbol */
-li > a:after {
-    content: ' +';
-}
-
-li > a:only-child:after {
-    content: '';
-}
-
-
-/*Left-side Menu*/
-
-
-.logo {
-    position: fixed;
-    top: 0;
-    left: 3rem;
-    width: 100%;
-    background-color: none; /* Set your desired background color */
-    color: none; /* Set the text color */
-    padding: 10px 0;
-    z-index: 1000; /* Set a high z-index to ensure it appears above other content */
-}
-
-.logo img {
-    max-width: 100px; /* Adjust the maximum width as needed */
-}
-
-.menu-left {
-    position: fixed;
-    top: 10rem;
-    left: 0;
-    width: 200px; /* Adjust the width as needed */
-    height: 100%;
-    background-color: none; /* Optional background color */
-    {{/*border: 1px solid var(--secondary-color);*/}}
-}
-
-
-.menu-left ul {
-   
-    list-style: none;
-    list-style-type: none;
-}
-
-.menu-left ul li {
-    display: block;
-    background-color: none;
-}
-
-.menu-left a {
-    display: block;
-    padding: 1rem;
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.menu-left a:hover {
-    color: var(--secondary-color)
-}
-
-/* Hide Dropdowns by Default */
-.menu-left ul ul {
-    display: none;
-    position: absolute;
-}
-
-/* Display Dropdowns on Hover */
-.menu-left ul li:hover > ul {
-    display: inherit;
-}
-
-/* Fisrt Tier Dropdown */
-.menu-left ul ul li {
-    width: 170px;
-    float: none;
-    display: list-item;
-    position: relative;
-}
-
-/* Second, Third and more Tiers	*/
-.menu-left ul ul ul li {
-    position: relative;
-    top: -60px;
-    left: 170px;
-}
-
-
-/* Change this in order to change the Dropdown symbol */
-li > a:after {
-    content: ' +';
-}
-
-li > a:only-child:after {
-    content: '';
+.site-footer {
+    grid-area: site-footer-area;
 }

@@ -8,14 +8,17 @@
     {{ partial "head.html" . }}
 </head>
 <body>
-<header>
+<header class="site-header">
     {{ partial "header.html" . }}
-    {{ partial "allLanguages.html" . }}
 </header>
-<main>
+<nav class="site-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    {{ partial "lang-menu.html" . }}
+</nav>
+<main class="site-main">
     {{ block "main" . }}{{ end }}
 </main>
-<footer>
+<footer class="site-footer">
     {{ partial "footer.html" . }}
 </footer>
 </body>
