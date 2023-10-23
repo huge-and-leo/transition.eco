@@ -11,8 +11,10 @@
 <header class="site-header">
     {{ partial "header.html" . }}
 </header>
-<nav class="site-nav">
+<nav class="primary-nav">
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</nav>
+<nav class="secondary-nav">
     {{ partial "lang-menu.html" . }}
 </nav>
 <main class="site-main">
