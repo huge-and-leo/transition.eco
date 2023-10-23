@@ -75,13 +75,16 @@ main a:not([href^="http"]):before {
 html {
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     height: clamp(0.75rem, 0.5rem + 0.9vw, 1rem);
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
     border-radius: 32px;
 }
+
 ::-webkit-scrollbar-track {
     background-color: var(--light-gray);
     border: 1px dashed var(--dark-gray);
@@ -164,7 +167,6 @@ body {
 
 .site-main {
     grid-area: site-main-area;
-    max-width: 60rem;
 }
 
 .site-footer {
@@ -173,10 +175,10 @@ body {
 
 
 .primary-nav-toggle:hover,
-.secondary-nav-toggle:hover
-{
+.secondary-nav-toggle:hover {
     cursor: pointer;
 }
+
 body > * {
     transition: .2s ease-in-out;
 }
@@ -201,4 +203,42 @@ body > * {
 .primary-nav--opened .site-main,
 .primary-nav--opened .site-footer {
     /*filter: brightness(50%);*/
+}
+
+@media (min-width: 90ch) {
+    /* Styles for large devices (desktops, 992px and up) */
+    body {
+        grid-template-areas:
+        "site-header-area site-main-area"
+        "primary-nav-area site-main-area"
+        "secondary-nav-area site-footer-area";
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: fit-content(25ch) fit-content(50ch);
+    }
+
+    .primary-nav-toggle {
+        display: none;
+    }
+
+    .secondary-nav-toggle {
+        display: none;
+    }
+
+    .primary-nav {
+        grid-area: primary-nav-area;
+        position: initial;
+    }
+
+    .secondary-nav {
+        grid-area: secondary-nav-area;
+        position: revert;
+    }
+
+    .primary-nav--opened > * {
+        transform: none;
+    }
+
+    .secondary-nav--opened > * {
+        transform: none;
+    }
 }
