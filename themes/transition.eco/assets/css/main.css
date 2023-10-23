@@ -8,6 +8,8 @@
     --orange: #F8B195;
     --yellow: #FECEAB;
     --white: #FFF;
+    --light-gray: rgb(247, 248, 252);
+    --dark-gray: rgb(228, 231, 246);
 }
 
 body {
@@ -66,6 +68,23 @@ main a:not([href^="http"]):before {
 ::selection {
     color: white;
     background: var(--primary-color);
+}
+
+
+/* Change scrollbar */
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    height: clamp(0.75rem, 0.5rem + 0.9vw, 1rem);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 32px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--light-gray);
+    border: 1px dashed var(--dark-gray);
 }
 
 
