@@ -1,6 +1,6 @@
 <div class="columns-container">
 {{ range split .Inner "<--->" }}
-{{ printf "<div class=\"column-container__section\">" | htmlUnescape | safeHTML }}
+{{ printf "<div class=\"columns-container__section\">" | htmlUnescape | safeHTML }}
 {{ . | safeHTML }}
 {{ printf "</div>" | htmlUnescape | safeHTML }}
 {{ end }}

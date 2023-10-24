@@ -213,6 +213,12 @@ body > * {
     grid-gap: 24px;
 }
 
+.columns-container__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media (min-width: 100ch) {
     /* Styles for large devices (desktops, 992px and up) */
     body {
