@@ -6,11 +6,15 @@ draft = false
 
 # DE-CH
  
+{{% columns-container %}}
+
 ## Analyser
 
 Nos outils d’analyse vous permettent de prendre des décisions fondées pour réduire les impacts environnementaux de votre société.
 
 [SERVICES D'ANALYSE](services/analyser)
+
+<--->
 
 ## Informer
 
@@ -18,8 +22,12 @@ Nos services d’information vous permettent de rester à jour à propos des cha
 
 [SERVICES D'INFORMATION](services/informer)
 
+<--->
+
 ## Former
 
 Nos services de formation vous apportent des connaissances utiles pour la gestion de la durabilité au sein de votre entreprise ou de votre association.
 
 [SERVICES DE FORMATION](services/former)
+
+{{% /columns-container %}}

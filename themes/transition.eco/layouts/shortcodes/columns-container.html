@@ -1,0 +1,7 @@
+<div class="columns-container">
+{{ range split .Inner "<--->" }}
+{{ printf "<div class=\"column-container__section\">" | htmlUnescape | safeHTML }}
+{{ . | safeHTML }}
+{{ printf "</div>" | htmlUnescape | safeHTML }}
+{{ end }}
+</div>

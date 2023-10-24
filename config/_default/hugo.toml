@@ -5,3 +5,6 @@ title = 'transition.eco'
 theme = 'transition.eco'
 defaultContentLanguage = 'fr-ch'
 defaultContentLanguageInSubdir = true
+
+[markup.goldmark.renderer]
+unsafe = true
