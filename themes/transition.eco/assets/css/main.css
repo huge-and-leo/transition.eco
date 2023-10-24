@@ -116,6 +116,9 @@ body {
     padding: 1rem;
 }
 
+.site-main {
+    padding-bottom: 2rem;
+}
 
 .site-header {
     grid-area: site-header-area;
