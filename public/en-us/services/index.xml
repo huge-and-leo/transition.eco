@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on transition.eco</title>
+    <link>https://transition.eco/en-us/services/</link>
+    <description>Recent content in Services on transition.eco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://transition.eco/en-us/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyser</title>
+      <link>https://transition.eco/en-us/services/analyser/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/en-us/services/analyser/</guid>
+      <description>Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycles de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en kg CO2e par produit, service, processus ou site.</description>
+    </item>
+    
+    <item>
+      <title>Informer</title>
+      <link>https://transition.eco/en-us/services/informer/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/en-us/services/informer/</guid>
+      <description>La prise de conscience de l’urgence environnementale pousse notre société à se remettre en question, à se réinventer. Beaucoup de décisions sont et doivent encore être prises et il peut être difficile de garder une vue d’ensemble sur ce qui se passe. Nous vous proposons de vous aider à y voir plus clair et à comprendre quelles sont les efforts mis en place dans votre secteur d’activité.</description>
+    </item>
+    
+    <item>
+      <title>Former</title>
+      <link>https://transition.eco/en-us/services/former/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/en-us/services/former/</guid>
+      <description>Les émissions de CO2 sont partout, tout le monde en parle. Mais qu’est-ce que cela signifie vraiment ? Et pourquoi est-ce qu’il s’agit du CO2 et pas d’un autre élément ? Afin de mieux comprendre les impacts environnementaux et ainsi de prendre des décisions fondées, nous vous aidons à y voir plus clair et à comprendre comment les méthodes de calculs d’impacts fonctionnent.</description>
+    </item>
+    
+  </channel>
+</rss>
