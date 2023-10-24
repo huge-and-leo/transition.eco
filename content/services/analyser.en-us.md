@@ -19,17 +19,19 @@ Exemples :
 - Fabrication de mèches en métal → ACV pour identifier l’étape de fabrication qui a le plus d’impact sur l’environnement
 - Recyclage ou bien incinération → ACV pour comprendre quelle valorisation est la plus adéquate
 
-{{% columns-container %}}
+{{% columns-container align-last="true" %}}
 
 ## ACV classique
 Une ACV classique permet de se faire une idée précise des impacts environnementaux de son ou ses produits, événements, services, etc.
 
 A l’aide de scénarios développés avec votre soutien, il est possible de prévoir les impacts engendrés par une certaine démarche.
 
+{{% section %}}
 ### Résultats
 - Modélisation du/des sujet/s (produit, processus, services, site)
 - Présentation finale des résultats et des potentiels ou workshop
 - Rapport final contenant la méthode appliquée, les résultats et les potentiels
+  {{% /section %}}
 
 <--->
 
@@ -38,10 +40,12 @@ L’ACV Ad hoc va plus loin que l’ACV classique et permet de prendre en compte
 
 Il est par exemple possible de développer un modèle qui sera mis à jour chaque année, ou alors qui comprend plusieurs modules, en fonction de vos besoins.
 
+{{% section %}}
 ### Résultats
 - Modélisation du/des sujet/s (produit, processus, services, site)
 - Présentation finale des résultats et des potentiels ou workshop
 - Rapport final contenant la méthode appliquée, les résultats et les potentiels
+  {{% /section %}}
 
 {{% /columns-container %}}
 

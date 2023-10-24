@@ -1,4 +1,4 @@
-<div class="columns-container">
+<div class="columns-container{{ with .Get "align-last" }} align-last{{ end }}">
 {{ range split .Inner "<--->" }}
 {{ printf "<div class=\"columns-container__section\">" | htmlUnescape | safeHTML }}
 {{ . | safeHTML }}

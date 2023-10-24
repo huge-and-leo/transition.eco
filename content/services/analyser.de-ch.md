@@ -8,6 +8,7 @@ weight = 10
 
 # DE-CH
 
+
 Nos services d’analyse sont basés sur la méthode de **l’analyse de cycle de vie** (ACV, aussi appelée éco-bilan) est une analyse qui considère tout le cycle de vie d’un produit, service, processus ou site. Une telle analyse permet d’obtenir des **informations qualitatives à propos des impacts environnementaux** liés au sujet de l’analyse. Un écobilan permet en outre de prendre des décisions fondées et d’identifier des mesures de mitigation ciblées.
 
 Généralement, une ACV est conduite afin de pouvoir comparer deux **alternatives** (produits, processus, services) et de pouvoir prendre une décision en tenant compte des informations sur les impacts environnementaux quantifiés.
@@ -19,17 +20,19 @@ Exemples :
 - Fabrication de mèches en métal → ACV pour identifier l’étape de fabrication qui a le plus d’impact sur l’environnement
 - Recyclage ou bien incinération → ACV pour comprendre quelle valorisation est la plus adéquate
 
-{{% columns-container %}}
+{{% columns-container align-last="true" %}}
 
 ## ACV classique
 Une ACV classique permet de se faire une idée précise des impacts environnementaux de son ou ses produits, événements, services, etc.
 
 A l’aide de scénarios développés avec votre soutien, il est possible de prévoir les impacts engendrés par une certaine démarche.
 
+{{% section %}}
 ### Résultats
 - Modélisation du/des sujet/s (produit, processus, services, site)
 - Présentation finale des résultats et des potentiels ou workshop
 - Rapport final contenant la méthode appliquée, les résultats et les potentiels
+  {{% /section %}}
 
 <--->
 
@@ -38,10 +41,12 @@ L’ACV Ad hoc va plus loin que l’ACV classique et permet de prendre en compte
 
 Il est par exemple possible de développer un modèle qui sera mis à jour chaque année, ou alors qui comprend plusieurs modules, en fonction de vos besoins.
 
+{{% section %}}
 ### Résultats
 - Modélisation du/des sujet/s (produit, processus, services, site)
 - Présentation finale des résultats et des potentiels ou workshop
 - Rapport final contenant la méthode appliquée, les résultats et les potentiels
+  {{% /section %}}
 
 {{% /columns-container %}}
 

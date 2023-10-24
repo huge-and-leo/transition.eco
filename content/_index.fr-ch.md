@@ -6,7 +6,7 @@ draft = false
 
 # FR-CH
 
-{{% columns-container %}}
+{{% columns-container align-last="true" %}}
 
 ## Analyser
 

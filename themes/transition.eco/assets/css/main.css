@@ -213,10 +213,13 @@ body > * {
     grid-gap: 24px;
 }
 
+.columns-container.align-last .columns-container__section > *:last-child {
+    margin-top: auto;
+}
+
 .columns-container__section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 @media (min-width: 100ch) {
