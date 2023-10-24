@@ -1,6 +1,6 @@
 +++
 title = 'Former'
-summary = 'Les émissions de CO2 sont partout, tout le monde en parle. Mais qu’est-ce que cela signifie vraiment ? Et pourquoi est-ce qu’il s’agit du CO2 et pas d’un notre élément ? Afin de mieux comprendre les impacts environnementaux et ainsi de prendre des décisions fondées, nous vous aidons à y voir plus clair et à comprendre comment les méthodes de calculs d’impacts fonctionnent.'
+summary = 'Les émissions de CO2 sont partout, tout le monde en parle. Mais qu’est-ce que cela signifie vraiment ? Et pourquoi est-ce qu’il s’agit du CO2 et pas d’un autre élément ? Afin de mieux comprendre les impacts environnementaux et ainsi de prendre des décisions fondées, nous vous aidons à y voir plus clair et à comprendre comment les méthodes de calculs d’impacts fonctionnent.'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 weight = 30
