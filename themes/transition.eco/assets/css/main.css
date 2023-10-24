@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 800;
+    font-weight: 500;
     color: var(--primary-color)
 }
 
@@ -49,6 +49,7 @@ nav > ul {
 
 nav a.active {
     font-weight: bold;
+    color : var(--primary-color)
 }
 
 
@@ -134,7 +135,7 @@ body {
 }
 
 .site-logo {
-    width: 64px;
+    width: 100px;
     margin: auto;
     display: block;
 }
@@ -175,7 +176,7 @@ body {
 .site-footer {
     grid-area: site-footer-area;
     background-color: var(--primary-color);
-    color: var(--light-gray);
+    color: lightgray;
 }
 
 
