@@ -171,6 +171,8 @@ body {
 
 .site-footer {
     grid-area: site-footer-area;
+    background-color: var(--primary-color);
+    color: var(--light-gray);
 }
 
 
@@ -237,7 +239,12 @@ body > * {
 
     .secondary-nav {
         grid-area: secondary-nav-area;
+        background-color: var(--primary-color);
         position: revert;
+    }
+
+    .secondary-nav a {
+        color: var(--light-gray);
     }
 
     .primary-nav--opened > * {
