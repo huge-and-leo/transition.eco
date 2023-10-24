@@ -205,7 +205,7 @@ body > * {
     /*filter: brightness(50%);*/
 }
 
-@media (min-width: 90ch) {
+@media (min-width: 80ch) {
     /* Styles for large devices (desktops, 992px and up) */
     body {
         grid-template-areas:
@@ -213,7 +213,7 @@ body > * {
         "primary-nav-area site-main-area"
         "secondary-nav-area site-footer-area";
         grid-template-rows: auto 1fr auto;
-        grid-template-columns: fit-content(25ch) fit-content(50ch);
+        grid-template-columns: 20ch fit-content(60ch);
     }
 
     .primary-nav-toggle {
@@ -240,5 +240,10 @@ body > * {
 
     .secondary-nav--opened > * {
         transform: none;
+    }
+
+    .site-footer {
+        display: flex;
+        align-items: end;
     }
 }
