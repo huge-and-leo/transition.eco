@@ -6,7 +6,6 @@ summary = 'Analyser quantitativement les impacts environnementaux de vos produit
 weight = 10
 +++
 
-# FR-CH
 
 Nos services d’analyse sont basés sur la méthode de **l’analyse de cycle de vie** (ACV, aussi appelée éco-bilan) est une analyse qui considère tout le cycle de vie d’un produit, service, processus ou site. Une telle analyse permet d’obtenir des **informations qualitatives à propos des impacts environnementaux** liés au sujet de l’analyse. Un écobilan permet en outre de prendre des décisions fondées et d’identifier des mesures de mitigation ciblées.
 

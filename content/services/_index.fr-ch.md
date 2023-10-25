@@ -4,7 +4,6 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-# FR-CH
 
 Nos services sont basés sur la TRANSITION environnementale des structures privées et publiques souhaitant avoir un impact positif sur la société :
 
