@@ -2,7 +2,7 @@
 title = 'Analyser'
 date = 2023-01-01T08:00:00-07:00
 draft = false
-summary = 'Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycles de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en kg CO2e par produit, service, processus ou site.'
+summary = 'Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycles de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en équivalents de CO2 (kg CO2e) par produit, service, processus ou site.'
 weight = 10
 +++
 

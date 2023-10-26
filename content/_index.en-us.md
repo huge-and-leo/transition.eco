@@ -4,30 +4,30 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-# EN-US
 
 {{% columns-container align-last="true" %}}
 
-## {{< fa icon="arrows-spin" >}} Analyser
+## {{< fa icon="arrows-spin" >}} Assessment
 
-Nos outils d’analyse vous permettent de prendre des décisions fondées pour réduire les impacts environnementaux de votre société.
+Our **assessment services** support you in your decision-making process and enable well-grounded decisions to mitigate the environmental impacts of your company or event. 
 
-[SERVICES D'ANALYSE](services/analyser)
-
-<--->
-
-## {{< fa icon="circle-info" >}} Informer
-
-Nos services d’information vous permettent de rester à jour à propos des changements au sein de votre domaine d’activité.
-
-[SERVICES D'INFORMATION](services/informer)
+[ASSESSMENT SERVICES](services/analyser)
 
 <--->
 
-## {{< fa icon="chalkboard-user" >}} Former
+## {{< fa icon="circle-info" >}} Information
 
-Nos services de formation vous apportent des connaissances utiles pour la gestion de la durabilité au sein de votre entreprise ou de votre association.
+Our **information services** allow you to stay up-to-date regarding environmental policies and trends in your activity sector.
 
-[SERVICES DE FORMATION](services/former)
+[INFORMATION SERVICES](services/informer)
+
+<--->
+
+## {{< fa icon="chalkboard-user" >}} Formation
+
+Our **formation services** bring you in-depth knowledge to efficiently face the durability challenges inside of your company or association.  
+
+
+[FORMATION SERVICES](services/former)
 
 {{% /columns-container %}}

@@ -9,7 +9,7 @@ draft = false
 
 ## {{< fa icon="arrows-spin" >}} Analyser
 
-Nos outils d’analyse vous permettent de prendre des décisions fondées pour réduire les impacts environnementaux de votre société.
+Nos outils d’**analyse** vous permettent de prendre des décisions fondées pour réduire les impacts environnementaux de votre société.
 
 [SERVICES D'ANALYSE](services/analyser)
 
@@ -17,7 +17,7 @@ Nos outils d’analyse vous permettent de prendre des décisions fondées pour r
 
 ## {{< fa icon="circle-info" >}} Informer
 
-Nos services d’information vous permettent de rester à jour à propos des changements au sein de votre domaine d’activité.
+Nos services d’**information** vous permettent de rester à jour à propos des changements au sein de votre domaine d’activité.
 
 [SERVICES D'INFORMATION](services/informer)
 
@@ -25,7 +25,7 @@ Nos services d’information vous permettent de rester à jour à propos des cha
 
 ## {{< fa icon="chalkboard-user" >}} Former
 
-Nos services de formation vous apportent des connaissances utiles pour la gestion de la durabilité au sein de votre entreprise ou de votre association.
+Nos services de **formation** vous apportent des connaissances utiles pour la gestion de la durabilité au sein de votre entreprise ou de votre association.
 
 [SERVICES DE FORMATION](services/former)
 

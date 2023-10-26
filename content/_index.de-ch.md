@@ -4,30 +4,32 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-# DE-CH
 
 {{% columns-container align-last="true" %}}
 
-## {{< fa icon="arrows-spin" >}} Analyser
+## {{< fa icon="arrows-spin" >}} Analysieren
 
-Nos outils d’analyse vous permettent de prendre des décisions fondées pour réduire les impacts environnementaux de votre société.
+Unsere **Analyse-Dienstleistungen** ermöglichen eine fundierte Entscheidungsfindung, um die Umweltwirkungen Ihres Unternehmen zu reduzieren.
 
-[SERVICES D'ANALYSE](services/analyser)
 
-<--->
-
-## {{< fa icon="circle-info" >}} Informer
-
-Nos services d’information vous permettent de rester à jour à propos des changements au sein de votre domaine d’activité.
-
-[SERVICES D'INFORMATION](services/informer)
+[ANALYSE-DIENSTLEISTUNGEN](services/analyser)
 
 <--->
 
-## {{< fa icon="chalkboard-user" >}} Former
+## {{< fa icon="circle-info" >}} Informieren
 
-Nos services de formation vous apportent des connaissances utiles pour la gestion de la durabilité au sein de votre entreprise ou de votre association.
+Unsere **Information-sdienstleistungen** <br> helfen Ihnen, Aktualitäten bezüglich Nachhaltigkeitsthemen in Ihrem Tätigkeitsbereich zu verfolgen.
 
-[SERVICES DE FORMATION](services/former)
+
+[INFORMATIONS-DIENSTLEISTUNGEN](services/informer)
+
+<--->
+
+## {{< fa icon="chalkboard-user" >}} Ausbilden
+
+Unsere **Ausbildungs-dienstleistungen** <br> geben Ihnen die Werkzeuge, die Nachhaltigkeit innerhalb Ihres Unternehmens oder Events effizient zu fördern.
+
+
+[AUSBILDUNGS-DIENSTLEISTUNGEN](services/former)
 
 {{% /columns-container %}}
