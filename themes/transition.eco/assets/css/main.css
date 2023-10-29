@@ -91,12 +91,12 @@ html {
     border: 1px dashed var(--dark-gray);
 }
 
-
 /**
   *
   * Individual elements
   *
  */
+
 
 body {
     display: grid;
@@ -132,7 +132,7 @@ body {
     order: 2;
     display: block;
     flex-grow: 2;
-    position:fixed;
+    /*position:fixed;*/
 }
 
 .site-logo {
@@ -141,13 +141,28 @@ body {
     display: block;
 }
 
+.primary-nav-toggle {
+    display: inline-block;
+    order: 1;
+}
+
+.secondary-nav-toggle {
+    display: inline-block;
+    order: 3;
+}
 
 
-
-
-
-.lang-menu {
-
+.primary-nav {
+    position: fixed;
+    top: 0;
+    left: -256px;
+    /*grid-area: primary-nav-area;*/
+}
+.secondary-nav {
+    position: fixed;
+    top: 0;
+    right: -256px;
+    /*grid-area: secondary-nav-area;*/
 }
 
 .site-main {
@@ -160,14 +175,34 @@ body {
     color: lightgray;
 }
 
+.primary-nav-toggle:hover,
+.secondary-nav-toggle:hover {
+    cursor: pointer;
+}
 
 
 body > * {
     transition: .2s ease-in-out;
 }
 
-
-
+.primary-nav--opened,
+.secondary-nav--opened {
+    overflow-y: hidden;
+}
+.primary-nav--opened > * {
+    transform: translateX(256px);
+}
+.secondary-nav--opened > * {
+    transform: translateX(-256px);
+}
+/*
+    TODO: dim brightness of body content
+ */
+.primary-nav--opened .site-header,
+.primary-nav--opened .site-main,
+.primary-nav--opened .site-footer {
+    /*filter: brightness(50%);*/
+}
 
 .columns-container {
     display: grid;
@@ -184,6 +219,8 @@ body > * {
     flex-direction: column;
 }
 
+
+/* Desktop*/
 @media (min-width: 100ch) {
     /* Styles for large devices (desktops, 992px and up) */
     body {
@@ -195,11 +232,19 @@ body > * {
         grid-template-columns: 20ch fit-content(80ch);
     }
 
+    .primary-nav-toggle {
+        display: none;
+    }
+
+    .secondary-nav-toggle {
+        display: none;
+    }
 
     .primary-nav {
         grid-area: primary-nav-area;
-        position: fixed;
-        top: 10rem;
+        position: initial; 
+        /*position: fixed;
+        top: 10rem;*/
     }
 
     .secondary-nav {
@@ -208,10 +253,20 @@ body > * {
         position: revert;
     }
 
-    .secondary-nav a {
+    .secondary-nav a,
+    .secondary-nav a strong,
+    .secondary-nav a.active
+    {
         color: var(--light-gray);
     }
 
+    .primary-nav--opened > * {
+        transform: none;
+    }
+
+    .secondary-nav--opened > * {
+        transform: none;
+    }
 
     .site-footer {
         display: flex;
