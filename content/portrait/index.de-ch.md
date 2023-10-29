@@ -11,9 +11,11 @@ Das Beratungsbüro **TRANSITION** begleitet private und öffentliche Akteur:inne
 Das Beratungsbüro bietet ein transparentes und ehrliches Dienstleistungsangebot. Die Beratung ist basiert auf einer starken Kollaboration und der realitätsnahen Modellierung des untersuchten Prozesses mit Hilfe der Ökobilanzierung, eine wissenschaftliche Methode, welche die quantitative Analyse der Umweltwirkungen eines Produktes, einer Dienstleistung, eines Events, einer Firma ermöglicht.
 
 
-Les valeurs de l’entreprise sont l’**efficacité**, l’**humanisme**, l’**honnêteté** et la **rigueur scientifique**.
+Die Werte unserer Firma sind die **Effizienz**, der **Humanismus**, die **Ehrlichkeit** und die **wissenschaftliche Präzision**.
+
 
 ## Léonard Marchand
-Formé à l’Ecole polytechnique fédérale de Zürich (ETHZ), Léonard Marchand est ingénieur en environnement spécialisé dans la conception écologique de systèmes (Ecological System Design) et dans l’analyse de cycles de vie. Ayant la chance d’évoluer professionnellement dans le domaine du conseil depuis plusieurs années, il a pu perfectionner son approche des défis environnementaux. De langue maternelle francophone, Léonard parle couramment l’Allemand et l’Anglais.
+Mit einem Masterabschluss von der Eidgenössichen Technische Hochschule von Zürich (ETHZ), Léonard Marchand ist Umweltingenieur, spezialisiert im ökologischen Systemdesign und in der Lebenszyklusanalyse. Durch eine mehrjährige Erfahrung im Bereich der Umweltberatung, konnte Léonard seine Vorgehensweise, Herausforderungen im Umweltbereich anzunehmen, kontinuierlich optimieren und anwenden.
+
 
 ![Léonard Marchard](leonard-marchand-photo.jpg)
