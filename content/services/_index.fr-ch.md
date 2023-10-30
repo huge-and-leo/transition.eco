@@ -5,7 +5,7 @@ draft = false
 +++
 
 
-Nos services sont basés sur la transition environnementale des structures privées et publiques souhaitant avoir un impact positif sur la société :
+Nos services soutiennent la transition environnementale des structures privées et publiques souhaitant avoir un impact positif sur la société :
 
 Nous proposons donc :
 
@@ -13,4 +13,4 @@ Nous proposons donc :
 - de vous aider dans la mise en conformité de vos produits, services et votre reporting
 - de vous soutenir dans la formation et la sensibilisation de vos équipes à l’environnement en général et à l’analyse de cycle de vie plus spécifiquement.
 
-Les services offert par Transition vous permettent d’une part d’analyser quantitativement l’impact environnementaux des vos activités et d’autre part de vous (in)former à propos des changements écologiques dans votre secteur.
+Les services offerts par Transition vous permettent d’une part d’analyser quantitativement l’impact environnementaux de vos activités et d’autre part de vous (in)former à propos des changements écologiques dans votre secteur.

@@ -15,7 +15,7 @@ Die Werte unserer Firma sind die **Effizienz**, der **Humanismus**, die **Ehrlic
 
 
 ## Léonard Marchand
-Mit einem Masterabschluss von der Eidgenössichen Technische Hochschule von Zürich (ETHZ), Léonard Marchand ist Umweltingenieur, spezialisiert im ökologischen Systemdesign und in der Lebenszyklusanalyse. Durch eine mehrjährige Erfahrung im Bereich der Umweltberatung, konnte Léonard seine Vorgehensweise, Herausforderungen im Umweltbereich anzunehmen, kontinuierlich optimieren und anwenden.
+Mit einem Masterabschluss von der Eidgenössischen Technische Hochschule von Zürich (ETHZ), Léonard Marchand ist Umweltingenieur, spezialisiert im ökologischen Systemdesign und in der Lebenszyklusanalyse. Durch eine mehrjährige Erfahrung im Bereich der Umweltberatung, konnte Léonard seine Vorgehensweise, Herausforderungen im Umweltbereich anzunehmen, kontinuierlich optimieren und anwenden.
 
 
 ![Léonard Marchard](leonard-marchand-photo.jpg)
