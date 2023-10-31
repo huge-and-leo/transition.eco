@@ -14,7 +14,7 @@
 
 body {
     color: var(--black);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
     line-height: 1.75;
     margin: 0;
@@ -49,7 +49,7 @@ nav > ul {
 
 nav a.active {
     font-weight: bold;
-    color : var(--primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -158,6 +158,7 @@ body {
     left: -256px;
     /*grid-area: primary-nav-area;*/
 }
+
 .secondary-nav {
     position: fixed;
     top: 0;
@@ -194,12 +195,15 @@ body > * {
 .secondary-nav--opened {
     overflow-y: hidden;
 }
+
 .primary-nav--opened > * {
     transform: translateX(256px);
 }
+
 .secondary-nav--opened > * {
     transform: translateX(-256px);
 }
+
 /*
     TODO: dim brightness of body content
  */
@@ -247,7 +251,7 @@ body > * {
 
     .primary-nav {
         grid-area: primary-nav-area;
-        position: initial; 
+        position: initial;
         /*position: fixed;
         top: 10rem;*/
     }
@@ -258,7 +262,9 @@ body > * {
         position: revert;
     }
 
-    .secondary-nav > a {
+    .secondary-nav a,
+    .secondary-nav a.active,
+    .site-footer {
         color: var(--light-gray);
     }
 
