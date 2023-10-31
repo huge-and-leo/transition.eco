@@ -13,6 +13,14 @@
 }
 
 @font-face {
+    font-family: 'BeausiteClassicWeb Light';
+    src: url('../Webfonts/BeausiteClassicWeb-Light.woff2') format('woff2'),
+    url('../Webfonts/BeausiteClassicWeb-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'BeausiteClassicWeb Regular';
     src: url('../Webfonts/BeausiteClassicWeb-Regular.woff2') format('woff2'),
     url('../Webfonts/BeausiteClassicWeb-Regular.woff') format('woff');
@@ -31,8 +39,8 @@
 body {
     color: var(--black);
     font-size: 1.3rem;
-    font-family: "BeausiteClassicWeb Regular" ,"Open Sans", "Helvetica", "Arial", sans-serif;
-    line-height: 1.75;
+    font-family: "BeausiteClassicWeb Light" ,"Open Sans", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -264,6 +272,14 @@ body > * {
         /*position: fixed;
         top: 10rem;*/
     }
+
+    nav ul ul {
+        display: none;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+      }
 
     .secondary-nav {
         grid-area: secondary-nav-area;

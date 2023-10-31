@@ -1,21 +1,21 @@
 [fr-ch]
     languageCode = 'fr-CH'
     languageDirection = 'ltr'
-    languageName = 'Français (Suisse)'
+    languageName = 'FR'
     weight = 1
     [fr-ch.params]
         copyright = 'Tous droits reservés'
 [de-ch]
     languageCode = 'de-CH'
     languageDirection = 'ltr'
-    languageName = 'Deutsch (Schweiz)'
+    languageName = 'DE'
     weight = 2
     [de-ch.params]
         copyright = 'Alle Rechte vorbehalten'
 [en-us]
     languageCode = 'en-US'
     languageDirection = 'ltr'
-    languageName = 'English (US)'
+    languageName = 'EN'
     weight = 2
     [en-us.params]
         copyright = 'All rights reserved'
