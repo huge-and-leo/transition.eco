@@ -14,15 +14,14 @@
 
 body {
     color: var(--black);
-    font-size: 1.25rem;
     font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 1.25rem;
     line-height: 1.75;
-    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
     font-weight: 500;
-    color: var(--primary-color)
 }
 
 img {
@@ -48,8 +47,8 @@ nav > ul {
 }
 
 nav a.active {
-    font-weight: bold;
     color: var(--primary-color);
+    font-weight: bold;
 }
 
 
@@ -59,18 +58,12 @@ main a:not([href^="http"]):before {
     content: '→ ';
 }
 
-
 /* Change select color */
-::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: var(--primary-color);
-}
-
+::-moz-selection, /* Code for Firefox */
 ::selection {
-    color: white;
     background: var(--primary-color);
+    color: white;
 }
-
 
 /* Change scrollbar */
 html {
@@ -79,17 +72,19 @@ html {
 
 ::-webkit-scrollbar {
     height: clamp(0.75rem, 0.5rem + 0.9vw, 1rem);
+    width: 16px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
-    border-radius: 32px;
+    border-radius: 24px;
 }
 
 ::-webkit-scrollbar-track {
     background-color: var(--light-gray);
     border: 1px dashed var(--dark-gray);
 }
+
 
 /**
   *
@@ -132,7 +127,6 @@ body {
     order: 2;
     display: block;
     flex-grow: 2;
-    /*position:fixed;*/
 }
 
 .site-logo {
@@ -156,19 +150,12 @@ body {
     position: fixed;
     top: 0;
     left: -256px;
-    /*grid-area: primary-nav-area;*/
 }
 
 .secondary-nav {
     position: fixed;
     top: 0;
     right: -256px;
-    /*grid-area: secondary-nav-area;*/
-}
-
-
-.lang-menu {
-
 }
 
 .site-main {
@@ -185,7 +172,6 @@ body {
 .secondary-nav-toggle:hover {
     cursor: pointer;
 }
-
 
 body > * {
     transition: .2s ease-in-out;
@@ -231,7 +217,6 @@ body > * {
 
 /* Desktop*/
 @media (min-width: 100ch) {
-    /* Styles for large devices (desktops, 992px and up) */
     body {
         grid-template-areas:
         "site-header-area site-main-area"
@@ -239,21 +224,21 @@ body > * {
         "secondary-nav-area site-footer-area";
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 20ch fit-content(80ch);
+        max-height: 100dvh; /* enables fixed sidebar #1/2 */
     }
 
-    .primary-nav-toggle {
-        display: none;
+    .site-main {
+        overflow-y: auto; /* enables fixed sidebar #2/2 */
     }
 
+    .primary-nav-toggle,
     .secondary-nav-toggle {
         display: none;
     }
 
     .primary-nav {
         grid-area: primary-nav-area;
-        position: initial;
-        /*position: fixed;
-        top: 10rem;*/
+        position: revert; /* was fixed */
     }
 
     .secondary-nav {
@@ -265,19 +250,16 @@ body > * {
     .secondary-nav a,
     .secondary-nav a.active,
     .site-footer {
-        color: var(--light-gray);
+        color: var(--light-gray); /* make it visible on  */
     }
 
-    .primary-nav--opened > * {
-        transform: none;
-    }
-
+    .primary-nav--opened > *,
     .secondary-nav--opened > * {
-        transform: none;
+        transform: none; /* make sure nothing is transformed using translateX, if resizing window from mobile (as the toggles are hidden and thus no more clickable) */
     }
 
     .site-footer {
-        display: flex;
-        align-items: end;
+        display: flex; /* only to allow align-items: end after */
+        align-items: end; /* to align at the bottom, as the height is the same as the secondary menu */
     }
 }
