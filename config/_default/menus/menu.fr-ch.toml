@@ -26,12 +26,18 @@ weight = 20
     pageRef = '/services/former'
     weight = 30
 
+
+[[main]]
+name = 'Projects'
+pageRef = '/projects'
+weight = 30
+
 [[main]]
 name = 'Portrait'
 pageRef = '/portrait'
-weight = 30
+weight = 40
 
 [[main]]
 name = 'Contact'
 pageRef = '/contact'
-weight = 40
+weight = 50

@@ -223,7 +223,7 @@ body > * {
         "primary-nav-area site-main-area"
         "secondary-nav-area site-footer-area";
         grid-template-rows: auto 1fr auto;
-        grid-template-columns: 20ch fit-content(80ch);
+        grid-template-columns: 20ch fit-content(80ch); /* fit-content is necessary for the columns to flow */
         max-height: 100dvh; /* enables fixed sidebar #1/2 */
     }
 
