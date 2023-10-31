@@ -16,7 +16,6 @@ body {
     color: var(--black);
     font-size: 1.3rem;
     font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
-    font-size: 1.25rem;
     line-height: 1.75;
 }
 
@@ -257,7 +256,8 @@ body > * {
 
     .secondary-nav a,
     .secondary-nav a strong,
-    .secondary-nav a.active
+    .secondary-nav a.active,
+    .site-footer
     {
         color: var(--light-gray);
     }
