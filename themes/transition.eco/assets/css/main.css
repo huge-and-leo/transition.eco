@@ -14,16 +14,16 @@
 
 @font-face {
     font-family: 'BeausiteClassicWeb Regular';
-    src: url('/Webfonts/BeausiteClassicWeb-Regular.woff2') format('woff2'),
-    url('/Webfonts/BeausiteClassicWeb-Regular.woff') format('woff');
+    src: url('../Webfonts/BeausiteClassicWeb-Regular.woff2') format('woff2'),
+    url('../Webfonts/BeausiteClassicWeb-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BeausiteClassicWeb Bold';
-    src: url('/Webfonts/BeausiteClassicWeb-Bold.woff2') format('woff2'),
-    url('/Webfonts/BeausiteClassicWeb-Bold.woff') format('woff');
+    src: url('../Webfonts/BeausiteClassicWeb-Bold.woff2') format('woff2'),
+    url('../Webfonts/BeausiteClassicWeb-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
