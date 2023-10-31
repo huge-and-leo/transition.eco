@@ -30,3 +30,8 @@ weight = 20
 name = 'Portrait'
 pageRef = '/portrait'
 weight = 30
+
+[[main]]
+name = 'Contact'
+pageRef = '/contact'
+weight = 40
