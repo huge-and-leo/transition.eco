@@ -6,6 +6,7 @@ draft = false
 
 
 Das Beratungsbüro **TRANSITION** begleitet private und öffentliche Akteur:innen in ihren Bemühungen, die Gesellschaft nachhaltiger zu gestalten. Die Beratung beruht auf Modellen, welche eine fundierte, konkrete und rationale Beschlussfindung ermöglichen.
+Das Beratungsbüro **TRANSITION** begleitet private und öffentliche Akteur:innen in ihren Bemühungen, die Gesellschaft nachhaltiger zu gestalten. Die Beratung beruht auf Modellen, welche eine fundierte, konkrete und rationale Beschlussfindung ermöglichen.
 
 ## Transition
 Das Beratungsbüro bietet ein transparentes und ehrliches Dienstleistungsangebot. Die Beratung ist basiert auf einer starken Kollaboration und der realitätsnahen Modellierung des untersuchten Prozesses mit Hilfe der Ökobilanzierung, eine wissenschaftliche Methode, welche die quantitative Analyse der Umweltwirkungen eines Produktes, einer Dienstleistung, eines Events, einer Firma ermöglicht.

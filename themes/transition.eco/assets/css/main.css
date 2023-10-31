@@ -16,13 +16,13 @@ body {
     color: var(--black);
     font-size: 1.3rem;
     font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 1.25rem;
     line-height: 1.75;
-    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
     font-weight: 500;
-    color: var(--primary-color)
 }
 
 img {
@@ -48,8 +48,8 @@ nav > ul {
 }
 
 nav a.active {
+    color: var(--primary-color);
     font-weight: bold;
-    color : var(--primary-color);
 }
 
 
@@ -59,18 +59,12 @@ main a:not([href^="http"]):before {
     content: '→ ';
 }
 
-
 /* Change select color */
-::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: var(--primary-color);
-}
-
+::-moz-selection, /* Code for Firefox */
 ::selection {
-    color: white;
     background: var(--primary-color);
+    color: white;
 }
-
 
 /* Change scrollbar */
 html {
@@ -79,11 +73,12 @@ html {
 
 ::-webkit-scrollbar {
     height: clamp(0.75rem, 0.5rem + 0.9vw, 1rem);
+    width: 16px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
-    border-radius: 32px;
+    border-radius: 24px;
 }
 
 ::-webkit-scrollbar-track {
@@ -96,6 +91,7 @@ html {
   * Individual elements
   *
  */
+
 
 
 body {
@@ -221,8 +217,9 @@ body > * {
 
 
 /* Desktop*/
+
+/* Desktop*/
 @media (min-width: 100ch) {
-    /* Styles for large devices (desktops, 992px and up) */
     body {
         grid-template-areas:
         "site-header-area site-main-area"
@@ -230,6 +227,11 @@ body > * {
         "secondary-nav-area site-footer-area";
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 20ch fit-content(80ch);
+        max-height: 100dvh; /* enables fixed sidebar #1/2 */
+    }
+
+    .site-main {
+        overflow-y: auto; /* enables fixed sidebar #2/2 */
     }
 
     .primary-nav-toggle {
@@ -269,7 +271,7 @@ body > * {
     }
 
     .site-footer {
-        display: flex;
-        align-items: end;
+        display: flex; /* only to allow align-items: end after */
+        align-items: end; /* to align at the bottom, as the height is the same as the secondary menu */
     }
 }
