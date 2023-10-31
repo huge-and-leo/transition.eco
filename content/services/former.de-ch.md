@@ -1,16 +1,14 @@
 +++
-title = 'Former'
-summary = 'Les émissions de CO2 sont partout, tout le monde en parle. Mais qu’est-ce que cela signifie vraiment ? Et pourquoi est-ce qu’il s’agit du CO2 et pas d’un autre élément ? Afin de mieux comprendre les impacts environnementaux et ainsi de prendre des décisions fondées, nous vous aidons à y voir plus clair et à comprendre comment les méthodes de calculs d’impacts fonctionnent.'
+title = 'Ausbilden'
+summary = 'CO2-Emissionen sind überall, alle reden darüber. Aber was bedeutet dies wirklich? Und wieso genau CO2 und nicht eine weitere Verbindung? Wir helfen Ihnen Klarheit zu schaffen in den für Sie relevanten Umweltthemen, um fundierte und gut informierte Entscheidungen treffen zu können und ein besseres Verständnis über die Bilanzierungsmethoden zu erhalten.'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 weight = 30
 +++
 
-# DE-CH
+Wir bieten Ihnen Workshops auf Deutsch, Französisch oder Englisch an. Der Wissenstransfer ist an Ihren Bedürfnissen angepasst und kann zum Beispiel eine theoretische Einführung in die Lebenszyklusanalyse oder ein Case Study über ein Produkt von Ihnen enthalten.
 
-Nous offrons un service de formation sous forme de présentation ou d’atelier en Français, Allemand ou Anglais. La formation est adaptée à vos besoins et peut par exemple comprendre une introduction théorique à l’analyse de cycle de vie, ou alors un atelier pratique basé sur un de vos produits, services ou sites.
-
-### Résultats :
-- Familiarisation avec les principes (de base ou avancés) de l’analyse d’impacts sur l’environnement
-- Illustration de la théorie à l’aide de cas concrets
-- Supports de présentation et exercices pour une application indépendante
+### Ergebnisse:
+- Einarbeitung in die Prinzipien der Lebenszyklusanalyse und der Umweltwirkungen von Produkten, Dienstleistungen, Prozessen und Events
+- Veranschaulichung der Theorie anhand von Case Studies
+- Eingesetzte Workshopsmaterial, für eine selbstständige Anwendung

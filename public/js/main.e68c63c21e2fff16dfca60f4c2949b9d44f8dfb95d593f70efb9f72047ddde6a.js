@@ -1,0 +1,1 @@
+(()=>{window.addEventListener("DOMContentLoaded",()=>{document.querySelector(".primary-nav-toggle").addEventListener("click",e=>{document.body.classList.toggle("primary-nav--opened")}),document.querySelector(".secondary-nav-toggle").addEventListener("click",e=>{document.body.classList.toggle("secondary-nav--opened")})});})();

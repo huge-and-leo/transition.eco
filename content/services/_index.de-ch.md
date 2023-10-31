@@ -4,14 +4,13 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-# DE-CH
 
-Nos services sont basés sur la TRANSITION environnementale des structures privées et publiques souhaitant avoir un impact positif sur la société :
+Unsere Dienstleistungen unterstützen den nachhaltigen Wandel von privaten und öffentlichen Strukturen, welche sich für eine umweltfreundliche Gesellschaft einsetzen möchten.
 
-Nous proposons donc :
+Wir bieten Ihnen:
 
-- de les accompagner dans leurs choix pour réduire leurs impacts sur l’environnement, par des bilans écologiques et des informations liées à leur secteur d’activité
-- de les aider dans la mise en conformité de leurs produits et services
-- de les soutenir dans la formation et la sensibilisation de leurs équipes à l’environnement en général et à l’analyse de cycle de vie plus spécifiquement.
+-	Eine Begleitung mit Hilfe von Ökobilanzen in Ihren Entscheidungen, welche die Umweltwirkungen Ihrer Firma, Ihres Verbandes oder Events zu reduzieren
+-	Eine Hilfe, um Ihre Produkte, Dienstleistungen und Ihr Reporting umweltkonform zu gestalten
+-	Eine Unterstützung für das Training und die Sensibilisierung Ihrer Mitarbeitenden bezüglich Umweltthemen und der Ökobilanzierung.
 
-Les services offert par Transition vous permettent d’une part d’analyser quantitativement l’impact environnementaux des vos activités et d’autre part de vous (in)former à propos des changements écologiques dans votre secteur.
+Die angebotenen Dienstleistungen helfen Ihnen, einerseits die Umweltwirkungen quantitativ zu untersuchen und andererseits Sie in Bezug auf ökologischen Bemühungen in Ihrem Sektor zu informieren und auszubilden. 
