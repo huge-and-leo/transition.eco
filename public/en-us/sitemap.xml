@@ -20,6 +20,24 @@
                 href="https://transition.eco/en-us/services/analyser/"
                 />
   </url><url>
+    <loc>https://transition.eco/en-us/projects/project-01/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-CH"
+                href="https://transition.eco/fr-ch/projects/project-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://transition.eco/de-ch/projects/project-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://transition.eco/en-us/projects/project-01/"
+                />
+  </url><url>
     <loc>https://transition.eco/en-us/services/informer/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
@@ -36,6 +54,24 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://transition.eco/en-us/services/informer/"
+                />
+  </url><url>
+    <loc>https://transition.eco/en-us/projects/project-02/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-CH"
+                href="https://transition.eco/fr-ch/projects/project-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://transition.eco/de-ch/projects/project-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://transition.eco/en-us/projects/project-02/"
                 />
   </url><url>
     <loc>https://transition.eco/en-us/services/former/</loc>
@@ -56,6 +92,24 @@
                 href="https://transition.eco/en-us/services/former/"
                 />
   </url><url>
+    <loc>https://transition.eco/en-us/projects/project-03/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-CH"
+                href="https://transition.eco/fr-ch/projects/project-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://transition.eco/de-ch/projects/project-03/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://transition.eco/en-us/projects/project-03/"
+                />
+  </url><url>
     <loc>https://transition.eco/en-us/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
@@ -74,6 +128,24 @@
                 href="https://transition.eco/en-us/"
                 />
   </url><url>
+    <loc>https://transition.eco/en-us/contact/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-CH"
+                href="https://transition.eco/fr-ch/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://transition.eco/de-ch/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://transition.eco/en-us/contact/"
+                />
+  </url><url>
     <loc>https://transition.eco/en-us/portrait/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
@@ -90,6 +162,24 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://transition.eco/en-us/portrait/"
+                />
+  </url><url>
+    <loc>https://transition.eco/en-us/projects/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-CH"
+                href="https://transition.eco/fr-ch/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-CH"
+                href="https://transition.eco/de-ch/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://transition.eco/en-us/projects/"
                 />
   </url><url>
     <loc>https://transition.eco/en-us/services/</loc>

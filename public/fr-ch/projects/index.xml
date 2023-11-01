@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on transition.eco</title>
+    <link>https://transition.eco/fr-ch/projects/</link>
+    <description>Recent content in Projects on transition.eco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-CH</language>
+    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://transition.eco/fr-ch/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet 01</title>
+      <link>https://transition.eco/fr-ch/projects/project-01/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/fr-ch/projects/project-01/</guid>
+      <description>Résumé du project 01</description>
+    </item>
+    
+    <item>
+      <title>Projet 02</title>
+      <link>https://transition.eco/fr-ch/projects/project-02/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/fr-ch/projects/project-02/</guid>
+      <description>Résumé du Projet 02</description>
+    </item>
+    
+    <item>
+      <title>Project 03</title>
+      <link>https://transition.eco/fr-ch/projects/project-03/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/fr-ch/projects/project-03/</guid>
+      <description>Résumé du project 03</description>
+    </item>
+    
+  </channel>
+</rss>

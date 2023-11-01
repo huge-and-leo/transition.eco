@@ -8,30 +8,66 @@
     <language>de-CH</language>
     <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://transition.eco/de-ch/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Analyser</title>
+      <title>Analysieren</title>
       <link>https://transition.eco/de-ch/services/analyser/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
       <guid>https://transition.eco/de-ch/services/analyser/</guid>
-      <description>Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycles de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en kg CO2e par produit, service, processus ou site.</description>
+      <description>Quantitative Analyse von Umweltwirkungen Ihrer Produkte, Dienstleistungen, Prozesse, Events, usw. Unsere Herangehensweise beruht auf der Lebenszyklusanalyse, welche eine faktische Betrachtung der Umweltwirkungen ermöglicht. Die Ergebnisse werden zum Beispiel in CO2-Äquivalenten per Produkt, Prozess oder Event ermittelt.</description>
     </item>
     
     <item>
-      <title>Informer</title>
+      <title>Projekt 01</title>
+      <link>https://transition.eco/de-ch/projects/project-01/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/de-ch/projects/project-01/</guid>
+      <description>Zusammenfassung Projekt 01</description>
+    </item>
+    
+    <item>
+      <title>Informieren</title>
       <link>https://transition.eco/de-ch/services/informer/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
       <guid>https://transition.eco/de-ch/services/informer/</guid>
-      <description>La prise de conscience de l’urgence environnementale pousse notre société à se remettre en question, à se réinventer. Beaucoup de décisions sont et doivent encore être prises et il peut être difficile de garder une vue d’ensemble sur ce qui se passe. Nous vous proposons de vous aider à y voir plus clair et à comprendre quelles sont les efforts mis en place dans votre secteur d’activité.</description>
+      <description>Das Bewustsein der Umweltnotlage zwingt unserer Gesellschaft ihre Funktionsweise zu hinterfragen. Viele Entscheidungen müssen getroffen werden und werden getroffen. Es ist herausfordernd, einen Überblick der Situation zu behalten. Wir bieten Ihnen Unterstützung an, um die Regelungen, Trends und Fortschritte in Ihrem Arbeitsgebiet besser zu verfolgen.</description>
     </item>
     
     <item>
-      <title>Former</title>
+      <title>Projekt 02</title>
+      <link>https://transition.eco/de-ch/projects/project-02/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/de-ch/projects/project-02/</guid>
+      <description>Zusammenfassung Projekt 02</description>
+    </item>
+    
+    <item>
+      <title>Ausbilden</title>
       <link>https://transition.eco/de-ch/services/former/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
       <guid>https://transition.eco/de-ch/services/former/</guid>
-      <description>Les émissions de CO2 sont partout, tout le monde en parle. Mais qu’est-ce que cela signifie vraiment ? Et pourquoi est-ce qu’il s’agit du CO2 et pas d’un autre élément ? Afin de mieux comprendre les impacts environnementaux et ainsi de prendre des décisions fondées, nous vous aidons à y voir plus clair et à comprendre comment les méthodes de calculs d’impacts fonctionnent.</description>
+      <description>CO2-Emissionen sind überall, alle reden darüber. Aber was bedeutet dies wirklich? Und wieso genau CO2 und nicht eine weitere Verbindung? Wir helfen Ihnen Klarheit zu schaffen in den für Sie relevanten Umweltthemen, um fundierte und gut informierte Entscheidungen treffen zu können und ein besseres Verständnis über die Bilanzierungsmethoden zu erhalten.</description>
+    </item>
+    
+    <item>
+      <title>Projekt 03</title>
+      <link>https://transition.eco/de-ch/projects/project-03/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/de-ch/projects/project-03/</guid>
+      <description>Zusammenfassung Projekt 03</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://transition.eco/de-ch/contact/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      
+      <guid>https://transition.eco/de-ch/contact/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -40,7 +76,7 @@
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
       <guid>https://transition.eco/de-ch/portrait/</guid>
-      <description>Das Beratungsbüro TRANSITION begleitet private und öffentliche Akteur:innen in ihren Bemühungen, die Gesellschaft nachhaltiger zu gestalten. Die Beratung beruht auf Modellen, welche eine fundierte, konkrete und rationale Beschlussfindung ermöglichen.
+      <description>Das Beratungsbüro TRANSITION begleitet private und öffentliche Akteur:innen in ihren Bemühungen, die Gesellschaft nachhaltiger zu gestalten. Die Beratung beruht auf Modellen, welche eine fundierte, konkrete und rationale Beschlussfindung ermöglichen. Das Beratungsbüro TRANSITION begleitet private und öffentliche Akteur:innen in ihren Bemühungen, die Gesellschaft nachhaltiger zu gestalten. Die Beratung beruht auf Modellen, welche eine fundierte, konkrete und rationale Beschlussfindung ermöglichen.
 Transition Das Beratungsbüro bietet ein transparentes und ehrliches Dienstleistungsangebot. Die Beratung ist basiert auf einer starken Kollaboration und der realitätsnahen Modellierung des untersuchten Prozesses mit Hilfe der Ökobilanzierung, eine wissenschaftliche Methode, welche die quantitative Analyse der Umweltwirkungen eines Produktes, einer Dienstleistung, eines Events, einer Firma ermöglicht.</description>
     </item>
     
