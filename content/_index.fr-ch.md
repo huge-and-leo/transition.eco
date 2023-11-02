@@ -5,6 +5,8 @@ draft = false
 +++
 
 
+![Accueil](photo_transition-4.jpg)
+
 {{% columns-container align-last="true" %}}
 
 ## {{< fa icon="arrows-spin" >}} Analyser

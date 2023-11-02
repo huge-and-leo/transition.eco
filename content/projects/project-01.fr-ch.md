@@ -6,4 +6,5 @@ draft = false
 weight = 10
 +++
 
+
 ![Swiss Festivals Projects](swiss_festivals_project.jpg)

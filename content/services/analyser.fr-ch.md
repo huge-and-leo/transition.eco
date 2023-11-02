@@ -7,7 +7,7 @@ weight = 10
 +++
 
 
-Nos services d’analyse sont basés sur la méthode de **l’analyse de cycle de vie** (ACV, aussi appelée éco-bilan) qui considère tout le cycle de vie d’un produit, service, processus ou site. Une telle analyse permet d’obtenir des **informations qualitatives à propos des impacts environnementaux** liés au sujet de l’analyse. Un écobilan permet en outre de prendre des décisions fondées et d’identifier des mesures de mitigation ciblées.
+Nos services d’analyse sont basés sur la méthode de **l’analyse de cycle de vie** (ACV, aussi appelée écobilan) qui considère tout le cycle de vie d’un produit, service, processus ou site. Une telle analyse permet d’obtenir des **informations qualitatives à propos des impacts environnementaux** liés au sujet de l’analyse. Un écobilan permet en outre de prendre des décisions fondées et d’identifier des mesures de mitigation ciblées.
 
 Généralement, une ACV est conduite afin de pouvoir comparer deux **alternatives** (produits, processus, services) et de pouvoir prendre une décision en tenant compte des informations sur les impacts environnementaux quantifiés.
 
