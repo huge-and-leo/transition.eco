@@ -135,7 +135,7 @@ body {
 .secondary-nav,
 .site-main,
 .site-footer {
-    padding: 1rem;
+    padding: 0rem;
 }
 
 .site-main {
@@ -285,9 +285,16 @@ body > * {
 
     .secondary-nav {
         grid-area: secondary-nav-area;
+        align-self: center; /*Léo : pour aligner le texte au centre du grid-area*/
         background-color: var(--primary-color);
         position: revert;
     }
+
+
+    .secondary-nav li{
+        display: inline-block; /* Léo : menu horizontal*/
+    }
+
 
     .secondary-nav a,
     .secondary-nav a strong,
