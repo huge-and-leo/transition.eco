@@ -176,13 +176,13 @@ body {
 .primary-nav {
     position: fixed;
     top: 0;
-    left: -256px;
+    left: -128px;
     /*grid-area: primary-nav-area;*/
 }
 .secondary-nav {
     position: fixed;
     top: 0;
-    right: -256px;
+    right: -128px;
     /*grid-area: secondary-nav-area;*/
 }
 
@@ -211,10 +211,10 @@ body > * {
     overflow-y: hidden;
 }
 .primary-nav--opened > * {
-    transform: translateX(256px);
+    transform: translateX(128px);
 }
 .secondary-nav--opened > * {
-    transform: translateX(-256px);
+    transform: translateX(-128px);
 }
 /*
     TODO: dim brightness of body content
@@ -227,7 +227,7 @@ body > * {
 
 .columns-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
     grid-gap: 24px;
 }
 
@@ -236,7 +236,7 @@ body > * {
 }
 
 .columns-container__section {
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 
@@ -250,8 +250,8 @@ body > * {
         "site-header-area site-main-area"
         "primary-nav-area site-main-area"
         "secondary-nav-area site-footer-area";
-        grid-template-rows: auto 1fr auto;
-        grid-template-columns: 20ch fit-content(80ch); /* fit-content is necessary for the columns to flow */
+        grid-template-rows: auto 1fr 2ch;
+        grid-template-columns: 16ch fit-content(84ch); /* fit-content is necessary for the columns to flow */
         max-height: 100dvh; /* enables fixed sidebar #1/2 */
     }
 
@@ -270,7 +270,7 @@ body > * {
     .primary-nav {
         grid-area: primary-nav-area;
         position: initial;
-        margin: 20px;
+        margin-left: 20px;
         /*position: fixed;
         top: 10rem;*/
     }
@@ -283,11 +283,15 @@ body > * {
         display: block;
       }
 
+
+   
     .secondary-nav {
         grid-area: secondary-nav-area;
-        align-self: center; /*Léo : pour aligner le texte au centre du grid-area*/
-        background-color: var(--primary-color);
+        align-items: center; /*Léo : pour aligner le texte au centre du grid-area*/
+        background-color: transparent;
         position: revert;
+        margin-left: 20px;
+        padding:o;
     }
 
 
@@ -301,7 +305,7 @@ body > * {
     .secondary-nav a.active,
     .site-footer
     {
-        color: var(--light-gray);
+        color: var(--primary-color);
     }
 
     .primary-nav--opened > * {
@@ -314,6 +318,7 @@ body > * {
 
     .site-footer {
         display: flex; /* only to allow align-items: end after */
+        background-color: transparent;
         align-items: end; /* to align at the bottom, as the height is the same as the secondary menu */
     }
 }

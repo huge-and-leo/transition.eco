@@ -6,9 +6,11 @@ summary = ' Quantitative Analyse von Umweltwirkungen Ihrer Produkte, Dienstleist
 weight = 10
 +++
 
-Unsere Dienstleistungen beruhen auf der Ökobilanzierung, welche alle Lebenszyklen eines Produktes, Prozesses, Standortes berücksichtigt. Eine solche Analyse ermöglicht die Erzeugung von quantitativen Informationen bezüglich der Umweltwirkungen des untersuchten Themas. Eine Ökobilanzierung ist die Basis für fundierte Entscheidungen und die Identifizierungen von konkreten Minderungsmassnahmen.  
+Unsere Analyse-Dienstleistungen beruhen auf der Ökobilanzierung, welche alle Lebenszyklen eines Produktes, Prozesses, Standortes berücksichtigt. Eine solche Analyse ermöglicht die Erzeugung von quantitativen Informationen bezüglich der Umweltwirkungen des untersuchten Objektes. Eine Ökobilanzierung ist die Basis für fundierte Entscheidungen und die Identifizierungen von konkreten Minderungsmassnahmen.  
 
-In der Regel, eine Ökobilanzierung wird durchgeführt, um zwei oder mehr Varianten miteinander zu vergleichen. Einige Beispiele sind:
+In der Regel, eine Ökobilanzierung wird durchgeführt, um zwei oder mehr Varianten miteinander zu vergleichen.  
+
+Einige Beispiele sind:
 
 -	Verpackung eines Produktes → Ökobilanzierung, um das Material mit den niedrigsten Umweltwirkungen zu identifizieren
 -	Sportliche oder kulturelle Veranstaltung → Ökobilanzierung, um den Bereich zu identifizieren, welcher am meisten zum Fussabdruck des Events beiträgt 
@@ -35,6 +37,7 @@ Mit Hilfe von mit Ihnen entwickelten Szenarien ist es möglich, verschiedene Alt
 Die Ad hoc Ökobilanz geht weiter als die klassiche Ökobilanz und ermöglicht eine auf Ihren wünschen angepasste Untersuchung.
 
 Es ist zum Beispiel möglich, eine parametrisierte Modellierung zu entwickeln, welche jedes Jahr aktualisiert wird, oder welche Module enthält, welche regelmässig angepasst werden können.
+
 
 {{% section %}}
 ### Ergebnisse

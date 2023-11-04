@@ -12,7 +12,10 @@
     weight = 2
     [de-ch.params]
         copyright = 'Alle Rechte vorbehalten'
+
+
 [en-us]
+
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'EN'

@@ -4,24 +4,24 @@ pageRef = '/'
 weight = 10
 
 [[main]]
-name = 'Dienstleistungen'
+name = 'Angebot'
 pageRef = '/services'
 weight = 20
 
     [[main]]
-    parent= 'Dienstleistungen'
+    parent= 'Angebot'
     name = 'Analysieren'
     pageRef = '/services/analyser'
     weight = 10
 
     [[main]]
-    parent= 'Dienstleistungen'
+    parent= 'Angebot'
     name = 'Informieren'
     pageRef = '/services/informer'
     weight = 20
 
     [[main]]
-    parent= 'Dienstleistungen'
+    parent= 'Angebot'
     name = 'Ausbilden'
     pageRef = '/services/former'
     weight = 30
