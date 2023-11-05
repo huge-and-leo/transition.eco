@@ -28,7 +28,7 @@ weight = 20
 
 
 [[main]]
-name = 'Projects'
+name = 'Projets'
 pageRef = '/projects'
 weight = 30
 
