@@ -11,19 +11,19 @@ weight = 20
     [[main]]
     parent= 'Services'
     name = 'Analyser'
-    pageRef = '/services/analyser'
+    pageRef = '/services/analyze'
     weight = 10
 
     [[main]]
     parent= 'Services'
     name = 'Informer'
-    pageRef = '/services/informer'
+    pageRef = '/services/inform'
     weight = 20
 
     [[main]]
     parent= 'Services'
     name = 'Former'
-    pageRef = '/services/former'
+    pageRef = '/services/train'
     weight = 30
 
 
