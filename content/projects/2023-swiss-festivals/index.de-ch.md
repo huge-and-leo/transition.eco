@@ -6,7 +6,7 @@ draft = false
 weight = 10
 +++
 
-![Swiss Festivals Projects](swiss_festivals_project.jpg)
+![Swiss Festivals Projects](swiss-festivals-project.jpg)
 
 Der Verein Music Declares Emergency (MDE) hat im Jahr 2022 eine Studie über den Fussabdruck der Schweizer Musikfestivals beauftragt. In Zusammenarbeit mit Acting Responsibly hat das Beratungsbüro Transition ein Model entwickelt, um die Emissionen von CO2-Äquivalenten der Festivals über ein Jahr (Referenzjahr 2022) zu quantifizieren. Die Ergebnisse der Studie wurden im März 2023 am Festival M4Music in Zürich gezeigt. Parallel zur Studie wurde ein Dokumentarfilm von Daniela Weinmann und Céline Werdelis gedreht.  
 

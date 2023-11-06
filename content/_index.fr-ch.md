@@ -5,7 +5,7 @@ draft = false
 +++
 
 
-![Accueil](photo_transition-4.jpg)
+![Accueil](photo-transition-4.jpg)
 
 {{% columns-container align-last="true" %}}
 
@@ -13,7 +13,7 @@ draft = false
 
 Nos outils d’**analyse** vous permettent de prendre des décisions fondées pour réduire les impacts environnementaux de votre société.
 
-[SERVICES D'ANALYSE](services/analyser)
+[SERVICES D'ANALYSE](services/analyze)
 
 <--->
 
@@ -21,7 +21,7 @@ Nos outils d’**analyse** vous permettent de prendre des décisions fondées po
 
 Nos services d’**information** vous permettent de rester à jour à propos des changements au sein de votre domaine d’activité.
 
-[SERVICES D'INFORMATION](services/informer)
+[SERVICES D'INFORMATION](services/inform)
 
 <--->
 
@@ -29,6 +29,6 @@ Nos services d’**information** vous permettent de rester à jour à propos des
 
 Nos services de **formation** vous apportent des connaissances utiles pour la gestion de la durabilité au sein de votre entreprise ou de votre association.
 
-[SERVICES DE FORMATION](services/former)
+[SERVICES DE FORMATION](services/train)
 
 {{% /columns-container %}}
