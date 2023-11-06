@@ -6,4 +6,4 @@ draft = false
 
 Léonard Marchand  
 leonard[at]transition.eco  
-+41799449271 
++41 79 944 92 71  

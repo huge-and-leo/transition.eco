@@ -2,7 +2,7 @@
 title = 'Analyser'
 date = 2023-01-01T08:00:00-07:00
 draft = false
-summary = 'Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycles de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en équivalents de CO2 (kg CO2e) par produit, service, processus ou site.'
+summary = 'Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycle de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en équivalents de CO2 (kg CO2e) par produit, service, processus ou site.'
 weight = 10
 +++
 
@@ -15,7 +15,7 @@ Exemples :
 
 - Emballage d’un produit → ACV pour identifier la variante qui a le moins d’impact sur l’environnement
 - Événement sportif ou culturel → ACV pour comprendre quel élément a le plus d’impacts sur l’environnement
-- Fabrication de mèches en métal → ACV pour identifier l’étape de fabrication qui a le plus d’impact sur l’environnement
+- Fabrication de mèches en métal → ACV pour identifier l’étape de fabrication qui a le plus d’impacts sur l’environnement
 - Recyclage ou bien incinération → ACV pour comprendre quelle valorisation est la plus adéquate
 
 {{% columns-container align-last="true" %}}
@@ -34,7 +34,7 @@ A l’aide de scénarios développés avec votre soutien, il est possible de pr�
 
 <--->
 
-## ACV Ad hoc
+## ACV ad hoc
 L’ACV Ad hoc va plus loin que l’ACV classique et permet de prendre en compte vos spécificités de manière encore plus poussée.
 
 Il est par exemple possible de développer un modèle qui sera mis à jour chaque année, ou alors qui comprend plusieurs modules, en fonction de vos besoins.

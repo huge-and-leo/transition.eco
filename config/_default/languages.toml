@@ -4,7 +4,7 @@
     languageName = 'FR'
     weight = 1
     [fr-ch.params]
-        copyright = 'Tous droits reservés'
+        copyright = 'Tous droits réservés'
 [de-ch]
     languageCode = 'de-CH'
     languageDirection = 'ltr'
@@ -19,6 +19,6 @@
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'EN'
-    weight = 2
+    weight = 3
     [en-us.params]
         copyright = 'All rights reserved'
