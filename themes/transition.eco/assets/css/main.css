@@ -136,7 +136,7 @@ body {
 .secondary-nav,
 .site-main,
 .site-footer {
-    padding: 0rem;
+    padding: 0;
 }
 
 .site-main {
@@ -194,7 +194,7 @@ body {
 .site-footer {
     grid-area: site-footer-area;
     background-color: var(--primary-color);
-    color: lightgray;
+    color: var(--light-gray);
 }
 
 .primary-nav-toggle:hover,
