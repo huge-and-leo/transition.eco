@@ -11,7 +11,7 @@ draft = false
 
 Our **assessment services** support you in your decision-making process and enable well-grounded decisions to mitigate the environmental impacts of your company or event. 
 
-[ASSESSMENT SERVICES](services/analyser)
+[ASSESSMENT SERVICES](services/analyze)
 
 <--->
 
@@ -19,7 +19,7 @@ Our **assessment services** support you in your decision-making process and enab
 
 Our **information services** allow you to stay up-to-date regarding environmental policies and trends in your activity sector.
 
-[INFORMATION SERVICES](services/informer)
+[INFORMATION SERVICES](services/inform)
 
 <--->
 
@@ -28,6 +28,6 @@ Our **information services** allow you to stay up-to-date regarding environmenta
 Our **formation services** bring you in-depth knowledge to efficiently face the durability challenges inside of your company or association.  
 
 
-[FORMATION SERVICES](services/former)
+[FORMATION SERVICES](services/train)
 
 {{% /columns-container %}}

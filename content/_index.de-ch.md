@@ -4,7 +4,7 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-![Léonard Marchard](photo_transition-4.jpg)
+![Léonard Marchard](photo-transition-4.jpg)
 
 
 {{% columns-container align-last="true" %}}
@@ -14,7 +14,7 @@ draft = false
 Unsere **Analyse-Dienstleistungen** ermöglichen eine fundierte Entscheidungsfindung, um die Umweltwirkungen Ihres Unternehmen zu reduzieren.
 
 
-[ANALYSE-DIENSTLEISTUNGEN](services/analyser)
+[ANALYSE-DIENSTLEISTUNGEN](services/analyze)
 
 <--->
 
@@ -23,7 +23,7 @@ Unsere **Analyse-Dienstleistungen** ermöglichen eine fundierte Entscheidungsfin
 Unsere **Information-sdienstleistungen** <br> helfen Ihnen, Aktualitäten bezüglich Nachhaltigkeitsthemen in Ihrem Tätigkeitsbereich zu verfolgen.
 
 
-[INFORMATIONS-DIENSTLEISTUNGEN](services/informer)
+[INFORMATIONS-DIENSTLEISTUNGEN](services/inform)
 
 <--->
 
@@ -32,6 +32,6 @@ Unsere **Information-sdienstleistungen** <br> helfen Ihnen, Aktualitäten bezüg
 Unsere **Ausbildungs-dienstleistungen** <br> geben Ihnen die Werkzeuge, die Nachhaltigkeit innerhalb Ihres Unternehmens oder Events effizient zu fördern.
 
 
-[AUSBILDUNGS-DIENSTLEISTUNGEN](services/former)
+[AUSBILDUNGS-DIENSTLEISTUNGEN](services/train)
 
 {{% /columns-container %}}

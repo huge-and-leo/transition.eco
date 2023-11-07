@@ -13,12 +13,10 @@
     [de-ch.params]
         copyright = 'Alle Rechte vorbehalten'
 
-
-[en-us]
-
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'EN'
-    weight = 3
-    [en-us.params]
-        copyright = 'All rights reserved'
+#[en-us]
+#    languageCode = 'en-US'
+#    languageDirection = 'ltr'
+#    languageName = 'EN'
+#    weight = 2
+#    [en-us.params]
+#        copyright = 'All rights reserved'
