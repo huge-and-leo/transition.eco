@@ -2,112 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://transition.eco/en-us/services/analyser/</loc>
+    <loc>https://transition.eco/en-us/services/analyze/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-CH"
-                href="https://transition.eco/fr-ch/services/analyser/"
+                href="https://transition.eco/fr-ch/services/analyze/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="https://transition.eco/de-ch/services/analyser/"
+                href="https://transition.eco/de-ch/services/analyze/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="https://transition.eco/en-us/services/analyser/"
+                hreflang="en-us"
+                href="https://transition.eco/en-us/services/analyze/"
                 />
   </url><url>
-    <loc>https://transition.eco/en-us/projects/project-01/</loc>
+    <loc>https://transition.eco/en-us/projects/2023-swiss-festivals/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-CH"
-                href="https://transition.eco/fr-ch/projects/project-01/"
+                href="https://transition.eco/fr-ch/projects/2023-swiss-festivals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="https://transition.eco/de-ch/projects/project-01/"
+                href="https://transition.eco/de-ch/projects/2023-swiss-festivals/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="https://transition.eco/en-us/projects/project-01/"
+                hreflang="en-us"
+                href="https://transition.eco/en-us/projects/2023-swiss-festivals/"
                 />
   </url><url>
-    <loc>https://transition.eco/en-us/services/informer/</loc>
+    <loc>https://transition.eco/en-us/services/inform/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-CH"
-                href="https://transition.eco/fr-ch/services/informer/"
+                href="https://transition.eco/fr-ch/services/inform/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="https://transition.eco/de-ch/services/informer/"
+                href="https://transition.eco/de-ch/services/inform/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="https://transition.eco/en-us/services/informer/"
+                hreflang="en-us"
+                href="https://transition.eco/en-us/services/inform/"
                 />
   </url><url>
-    <loc>https://transition.eco/en-us/projects/project-02/</loc>
+    <loc>https://transition.eco/en-us/projects/2023-cas-corporate-sustainability/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-CH"
-                href="https://transition.eco/fr-ch/projects/project-02/"
+                href="https://transition.eco/fr-ch/projects/2023-cas-corporate-sustainability/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="https://transition.eco/de-ch/projects/project-02/"
+                href="https://transition.eco/de-ch/projects/2023-cas-corporate-sustainability/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="https://transition.eco/en-us/projects/project-02/"
+                hreflang="en-us"
+                href="https://transition.eco/en-us/projects/2023-cas-corporate-sustainability/"
                 />
   </url><url>
-    <loc>https://transition.eco/en-us/services/former/</loc>
+    <loc>https://transition.eco/en-us/services/train/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-CH"
-                href="https://transition.eco/fr-ch/services/former/"
+                href="https://transition.eco/fr-ch/services/train/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-CH"
-                href="https://transition.eco/de-ch/services/former/"
+                href="https://transition.eco/de-ch/services/train/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="https://transition.eco/en-us/services/former/"
-                />
-  </url><url>
-    <loc>https://transition.eco/en-us/projects/project-03/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-CH"
-                href="https://transition.eco/fr-ch/projects/project-03/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-CH"
-                href="https://transition.eco/de-ch/projects/project-03/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://transition.eco/en-us/projects/project-03/"
+                hreflang="en-us"
+                href="https://transition.eco/en-us/services/train/"
                 />
   </url><url>
     <loc>https://transition.eco/en-us/</loc>
@@ -124,7 +106,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/"
                 />
   </url><url>
@@ -142,7 +124,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/contact/"
                 />
   </url><url>
@@ -160,7 +142,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/portrait/"
                 />
   </url><url>
@@ -178,7 +160,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/projects/"
                 />
   </url><url>
@@ -196,7 +178,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/services/"
                 />
   </url><url>
@@ -213,7 +195,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/categories/"
                 />
   </url><url>
@@ -230,7 +212,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
+                hreflang="en-us"
                 href="https://transition.eco/en-us/tags/"
                 />
   </url>

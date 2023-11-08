@@ -9,30 +9,29 @@
     <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://transition.eco/fr-ch/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyser</title>
-      <link>https://transition.eco/fr-ch/services/analyser/</link>
+      <link>https://transition.eco/fr-ch/services/analyze/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
-      <guid>https://transition.eco/fr-ch/services/analyser/</guid>
-      <description>Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycles de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en équivalents de CO2 (kg CO2e) par produit, service, processus ou site.</description>
+      <guid>https://transition.eco/fr-ch/services/analyze/</guid>
+      <description>Analyser quantitativement les impacts environnementaux de vos produits, services, processus, événements, sites, etc. Notre approche se base sur la méthode de l’analyse de cycle de vie (ACV), qui permet une analyse factuelle des impacts sur l’environnement. Les résultats d’une telle étude sont par exemple émis en équivalents de CO2 (kg CO2e) par produit, service, processus ou site.</description>
     </item>
     
     <item>
       <title>Informer</title>
-      <link>https://transition.eco/fr-ch/services/informer/</link>
+      <link>https://transition.eco/fr-ch/services/inform/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
-      <guid>https://transition.eco/fr-ch/services/informer/</guid>
-      <description>La prise de conscience de l’urgence environnementale pousse notre société à se remettre en question, à se réinventer. Beaucoup de décisions sont et doivent encore être prises et il peut être difficile de garder une vue d’ensemble sur ce qui se passe. Nous vous proposons de vous aider à y voir plus clair et à comprendre quelles sont les efforts mis en place dans votre secteur d’activité.</description>
+      <guid>https://transition.eco/fr-ch/services/inform/</guid>
+      <description>La prise de conscience de l’urgence environnementale pousse notre société à se remettre en question, à se réinventer. Beaucoup de décisions sont et doivent encore être prises et il peut être difficile de garder une vue d’ensemble sur ce qui se passe. Nous vous proposons de vous aider à y voir plus clair et à comprendre quels sont les efforts mis en place dans votre secteur d’activité.</description>
     </item>
     
     <item>
       <title>Former</title>
-      <link>https://transition.eco/fr-ch/services/former/</link>
+      <link>https://transition.eco/fr-ch/services/train/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
-      <guid>https://transition.eco/fr-ch/services/former/</guid>
-      <description>Nous offrons un service de formation sous forme de présentation ou d’atelier en Français, Allemand ou Anglais. La formation est adaptée à vos besoins et peut par exemple comprendre une introduction théorique à l’analyse de cycle de vie, ou alors un atelier pratique basé sur un de vos produits, services ou sites.
-Résultats : Familiarisation avec les principes (de base ou avancés) de l’analyse d’impacts sur l’environnement Illustration de la théorie à l’aide de cas concrets Supports de présentation et exercices pour une application indépendante </description>
+      <guid>https://transition.eco/fr-ch/services/train/</guid>
+      <description>Les émissions de CO2 sont partout, tout le monde en parle. Mais qu’est-ce que cela signifie vraiment ? Et pourquoi est-ce qu’il s’agit du CO2 et pas d’un autre élément ? Afin de mieux comprendre les impacts environnementaux et ainsi de prendre des décisions fondées, nous vous aidons à y voir plus clair et à comprendre comment les méthodes de calculs d’impacts fonctionnent.</description>
     </item>
     
   </channel>

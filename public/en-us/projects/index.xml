@@ -5,33 +5,24 @@
     <link>https://transition.eco/en-us/projects/</link>
     <description>Recent content in Projects on transition.eco</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://transition.eco/en-us/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 01</title>
-      <link>https://transition.eco/en-us/projects/project-01/</link>
+      <link>https://transition.eco/en-us/projects/2023-swiss-festivals/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
-      <guid>https://transition.eco/en-us/projects/project-01/</guid>
+      <guid>https://transition.eco/en-us/projects/2023-swiss-festivals/</guid>
       <description>Summary of Project 01</description>
     </item>
     
     <item>
       <title>Project 02</title>
-      <link>https://transition.eco/en-us/projects/project-02/</link>
+      <link>https://transition.eco/en-us/projects/2023-cas-corporate-sustainability/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
-      <guid>https://transition.eco/en-us/projects/project-02/</guid>
+      <guid>https://transition.eco/en-us/projects/2023-cas-corporate-sustainability/</guid>
       <description>Summary of Project 02</description>
-    </item>
-    
-    <item>
-      <title>Project 03</title>
-      <link>https://transition.eco/en-us/projects/project-03/</link>
-      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
-      
-      <guid>https://transition.eco/en-us/projects/project-03/</guid>
-      <description>Summary of Project 03</description>
     </item>
     
   </channel>

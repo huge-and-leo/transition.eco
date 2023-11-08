@@ -20,7 +20,7 @@ Unsere **Analyse-Dienstleistungen** ermöglichen eine fundierte Entscheidungsfin
 
 ## {{< fa icon="circle-info" >}} Informieren
 
-Unsere **Information-sdienstleistungen** <br> helfen Ihnen, Aktualitäten bezüglich Nachhaltigkeitsthemen in Ihrem Tätigkeitsbereich zu verfolgen.
+Unsere **Informationsdienstleistungen** <br> helfen Ihnen, Aktualitäten bezüglich Nachhaltigkeitsthemen in Ihrem Tätigkeitsbereich zu verfolgen.
 
 
 [INFORMATIONS-DIENSTLEISTUNGEN](services/inform)
@@ -29,7 +29,7 @@ Unsere **Information-sdienstleistungen** <br> helfen Ihnen, Aktualitäten bezüg
 
 ## {{< fa icon="chalkboard-user" >}} Ausbilden
 
-Unsere **Ausbildungs-dienstleistungen** <br> geben Ihnen die Werkzeuge, die Nachhaltigkeit innerhalb Ihres Unternehmens oder Events effizient zu fördern.
+Unsere **Ausbildungsdienstleistungen** <br> geben Ihnen die Werkzeuge, die Nachhaltigkeit innerhalb Ihres Unternehmens oder Events effizient zu fördern.
 
 
 [AUSBILDUNGS-DIENSTLEISTUNGEN](services/train)

@@ -2,6 +2,13 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
+    <loc>https://transition.eco/en-us/sitemap.xml</loc>
+    
+      <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
     <loc>https://transition.eco/fr-ch/sitemap.xml</loc>
     
       <lastmod>2023-01-01T08:00:00-07:00</lastmod>
@@ -10,13 +17,6 @@
   
   <sitemap>
     <loc>https://transition.eco/de-ch/sitemap.xml</loc>
-    
-      <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://transition.eco/en-us/sitemap.xml</loc>
     
       <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     
