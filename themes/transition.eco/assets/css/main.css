@@ -10,6 +10,8 @@
     --white: #FFF;
     --light-gray: rgb(247, 248, 252);
     --dark-gray: rgb(228, 231, 246);
+
+    --unit: 4px;
 }
 
 @font-face {
@@ -39,12 +41,12 @@
 body {
     color: var(--black);
     font-size: 1.2rem;
-    font-family: "BeausiteClassicWeb Light" ,"Open Sans", "Helvetica", "Arial", sans-serif;
+    font-family: "BeausiteClassicWeb Light", "Open Sans", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "BeausiteClassicWeb Bold" ,"Open Sans", "Helvetica", "Arial", sans-serif;
+    font-family: "BeausiteClassicWeb Bold", "Open Sans", "Helvetica", "Arial", sans-serif;
     color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: 300;
@@ -119,10 +121,9 @@ html {
  */
 
 
-
 body {
     display: grid;
-    min-height: 99dvh;
+    min-height: 100dvh;
     grid-template-areas:
         "site-header-area"
         "site-main-area"
@@ -131,19 +132,13 @@ body {
     overflow-x: hidden;
 }
 
-.site-header,
-.primary-nav,
-.secondary-nav,
 .site-main,
 .site-footer {
-    padding: 0;
-}
-
-.site-main {
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .site-header {
+    padding: 0;
     grid-area: site-header-area;
     display: flex;
     flex-flow: row wrap;
@@ -154,37 +149,39 @@ body {
     order: 2;
     display: block;
     flex-grow: 2;
-    /*position:fixed;*/
 }
 
 .site-logo {
     width: 100px;
-    margin: 0.1rem;
     display: block;
+    text-align: center;
+    margin: 0.1rem auto;
+}
+
+/* Navigation toggles */
+.primary-nav-toggle, .secondary-nav-toggle {
+    display: inline-block;
+    width: 64px;
 }
 
 .primary-nav-toggle {
-    display: inline-block;
     order: 1;
 }
 
 .secondary-nav-toggle {
-    display: inline-block;
     order: 3;
 }
-
 
 .primary-nav {
     position: fixed;
     top: 0;
-    left: -128px;
-    /*grid-area: primary-nav-area;*/
+    left: calc(-2rem - 128px);
 }
+
 .secondary-nav {
     position: fixed;
     top: 0;
     right: -128px;
-    /*grid-area: secondary-nav-area;*/
 }
 
 .site-main {
@@ -202,7 +199,6 @@ body {
     cursor: pointer;
 }
 
-
 body > * {
     transition: .2s ease-in-out;
 }
@@ -211,19 +207,13 @@ body > * {
 .secondary-nav--opened {
     overflow-y: hidden;
 }
+
 .primary-nav--opened > * {
     transform: translateX(128px);
 }
+
 .secondary-nav--opened > * {
     transform: translateX(-128px);
-}
-/*
-    TODO: dim brightness of body content
- */
-.primary-nav--opened .site-header,
-.primary-nav--opened .site-main,
-.primary-nav--opened .site-footer {
-    /*filter: brightness(50%);*/
 }
 
 .columns-container {
@@ -232,20 +222,18 @@ body > * {
     grid-gap: 24px;
 }
 
-.columns-container.align-last .columns-container__section > *:last-child {
-    margin-top: auto;
+.columns-container__section {
+    display: flex;
+    flex-direction: column;
 }
 
-.columns-container__section {
-    display: block;
-    flex-direction: column;
+.columns-container.align-last .columns-container__section > *:last-child {
+    margin-top: auto;
 }
 
 .site-footer {
     text-align: center; /* center on mobile */
 }
-
-/* Desktop*/
 
 /* Desktop*/
 @media (min-width: 100ch) {
@@ -254,9 +242,9 @@ body > * {
         "site-header-area site-main-area"
         "primary-nav-area site-main-area"
         "secondary-nav-area site-footer-area";
-        grid-template-rows: auto 1fr 2ch;
+        grid-template-rows: auto 1fr auto;
         grid-template-columns: 16ch fit-content(84ch); /* fit-content is necessary for the columns to flow */
-        max-height: 99dvh; /* enables fixed sidebar #1/2 */
+        max-height: 100dvh; /* enables fixed sidebar #1/2 */
     }
 
     .site-main {
@@ -288,13 +276,11 @@ body > * {
     }
 
 
-   
     .secondary-nav {
         grid-area: secondary-nav-area;
         align-items: center; /*Léo : pour aligner le texte au centre du grid-area*/
         background-color: transparent;
         position: revert;
-        margin-left: 20px;
         padding: 0;
     }
 
@@ -302,7 +288,6 @@ body > * {
     .secondary-nav li {
         display: inline-block; /* Léo : menu horizontal*/
     }
-
 
     .secondary-nav a,
     .secondary-nav a strong,
@@ -323,9 +308,5 @@ body > * {
         display: block; /* only to allow align-items: end after */
         background-color: transparent;
         text-align: left; /* move back to left */
-    }
-
-    .site-footer p {
-        margin-top: 0;
     }
 }
