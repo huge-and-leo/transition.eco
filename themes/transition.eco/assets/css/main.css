@@ -101,12 +101,12 @@ html {
 
 ::-webkit-scrollbar {
     height: clamp(0.75rem, 0.5rem + 0.9vw, 1rem);
-    width: 16px;
+    width: 1rem;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
-    border-radius: 24px;
+    border-radius: 1.5rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -123,13 +123,13 @@ html {
 
 body {
     display: grid;
-    min-height: 100dvh;
+    height: 100dvh;
     grid-template-areas:
         "site-header-area"
         "site-main-area"
         "site-footer-area";
     grid-template-rows: auto 1fr auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .site-main,
@@ -152,7 +152,7 @@ body {
 }
 
 .site-logo {
-    width: 100px;
+    width: 8rem;
     display: block;
     text-align: center;
     margin: 0.1rem auto;
@@ -161,7 +161,7 @@ body {
 /* Navigation toggles */
 .primary-nav-toggle, .secondary-nav-toggle {
     display: inline-block;
-    width: 64px;
+    width: 4rem;
 }
 
 .primary-nav-toggle {
@@ -175,17 +175,18 @@ body {
 .primary-nav {
     position: fixed;
     top: 0;
-    left: calc(-2rem - 128px);
+    left: calc(-2rem - 8rem);
 }
 
 .secondary-nav {
     position: fixed;
     top: 0;
-    right: -128px;
+    right: -8rem;
 }
 
 .site-main {
     grid-area: site-main-area;
+    overflow: auto;
 }
 
 .site-footer {
@@ -209,17 +210,17 @@ body > * {
 }
 
 .primary-nav--opened > * {
-    transform: translateX(128px);
+    transform: translateX(8rem);
 }
 
 .secondary-nav--opened > * {
-    transform: translateX(-128px);
+    transform: translateX(-8rem);
 }
 
 .columns-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
-    grid-gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-gap: 1.5rem;
 }
 
 .columns-container__section {
@@ -244,7 +245,7 @@ body > * {
         "secondary-nav-area site-footer-area";
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 16ch fit-content(84ch); /* fit-content is necessary for the columns to flow */
-        max-height: 100dvh; /* enables fixed sidebar #1/2 */
+        height: 100dvh; /* enables fixed sidebar #1/2 */
     }
 
     .site-main {
@@ -262,9 +263,7 @@ body > * {
     .primary-nav {
         grid-area: primary-nav-area;
         position: initial;
-        margin-left: 20px;
-        /*position: fixed;
-        top: 10rem;*/
+        margin-left: 1.5rem;
     }
 
     nav ul ul {
@@ -304,9 +303,17 @@ body > * {
         transform: none;
     }
 
+    .secondary-nav {
+        padding: 2rem;
+    }
+
     .site-footer {
         display: block; /* only to allow align-items: end after */
-        background-color: transparent;
         text-align: left; /* move back to left */
+        background-color: initial;
+    }
+
+    .site-footer p {
+        margin: 0;
     }
 }
