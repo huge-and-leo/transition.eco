@@ -1,1 +1,4 @@
 .idea
+
+# auto generated when command `hugo` is ran
+public/
