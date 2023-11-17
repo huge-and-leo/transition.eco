@@ -15,5 +15,15 @@ $base-line-height: 1.5;
 $body-font-family: "BeausiteClassicWeb Light", "Open Sans", "Helvetica", "Arial", sans-serif;
 $header-font-family: "BeausiteClassicWeb Bold", "Open Sans", "Helvetica", "Arial", sans-serif;
 
+$breakpoint-desktop: 100ch;
+
 $unit: 4px;
 $base-padding: 2rem;
+
+$site-header-height: 4rem;
+
+$burger-item-height: .25rem;
+$burger-item-border-radius: .25rem;
+$burger-item-space-between: .25rem;
+$primary-nav-toggle-height: 3*$burger-item-height + 2*$burger-item-space-between;
+$primary-nav-toggle-width: $burger-item-height * 8;

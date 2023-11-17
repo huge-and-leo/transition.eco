@@ -1,0 +1,21 @@
+::selection
+{
+  background: $primary-color;
+  color: white;
+}
+
+.site-footer>*::selection {
+  background: white;
+  color: $primary-color;
+}
+
+.secondary-nav>*::selection {
+  background: white;
+  color: $primary-color;
+}
+
+::-moz-selection
+{
+  background: $primary-color;
+  color: white;
+}

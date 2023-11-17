@@ -4,27 +4,17 @@
 @import 'shortcode--columns-container';
 @import 'primary-nav-toggle';
 @import 'scrollbar-customization';
+@import 'selection-color';
 
 body {
-  color: $black;
-  font-size: $base-font-size;
   font-family: $body-font-family;
-  line-height: $base-line-height;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font-family;
-  color: $primary-color;
   font-size: $base-font-size;
-  font-weight: 300;
+  line-height: $base-line-height;
+  max-width: 150ch;
 }
 
 img {
   max-width: 100%;
-}
-
-strong {
-  color: $primary-color;
 }
 
 a {
@@ -32,210 +22,84 @@ a {
   text-decoration: none;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-}
-
-nav > ul {
-  padding: 0;
-}
-
-nav a.active {
-  color: $primary-color;
-  font-weight: normal;
-  text-decoration: underline;
-}
-
-
-/* internal relative link */
-/* https://css-tricks.com/snippets/css/style-links-depending-on-destination/ */
-main a:not([href^="http"]):before {
-  content: '→ ';
-}
-
-/* Change select color */
-::-moz-selection, /* Code for Firefox */
-::selection {
-  background: $primary-color;
-  color: white;
-}
-
-body {
-  display: grid;
-  height: 100dvh;
-  grid-template-areas:
-        "site-header-area"
-        "site-main-area"
-        "site-footer-area";
-  grid-template-rows: auto 1fr auto;
-  overflow: hidden;
-}
-
-
-.site-main,
 .site-footer {
+  background: $primary-color;
+  color: $white;
   padding: $base-padding;
+  text-align: center;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .site-header {
-  padding: 0;
-  grid-area: site-header-area;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.site-logo-container {
-  order: 2;
-  display: block;
-  flex-grow: 2;
-}
-
-.site-logo {
-  width: 8rem;
-  display: block;
-  text-align: center;
-  margin: 0.1rem auto;
-}
-
-/* Navigation toggle */
-.primary-nav-toggle {
-  display: inline-block;
-  width: 4rem;
-}
-
-.primary-nav-toggle {
-  order: 1;
-}
-
-.primary-nav {
+  z-index: 10;
+  height: $site-header-height;
+  width: 100%;
+  background: $light-gray;
   position: fixed;
+  max-width: 150ch;
   top: 0;
-  left: calc(-8rem);
-}
 
-.secondary-nav {
-  position: fixed;
-  bottom: 0;
-  left: -8rem;
-}
+  .site-logo-container {
+    display: block;
+    margin: auto;
 
-.site-main {
-  grid-area: site-main-area;
-  overflow: auto;
-}
-
-.site-footer {
-  grid-area: site-footer-area;
-  background-color: $primary-color;
-  color: $light-gray;
-}
-
-.primary-nav-toggle:hover {
-  cursor: pointer;
-}
-
-body > * {
-  transition: .2s ease-in-out;
-}
-
-.primary-nav--opened,
-.secondary-nav--opened {
-  overflow-y: hidden;
-}
-
-.primary-nav--opened > * {
-  transform: translateX(8rem);
-}
-
-.secondary-nav--opened > * {
-  transform: translateX(-8rem);
-}
-
-.site-footer {
-  text-align: center; /* center on mobile */
-}
-
-
-/* Desktop*/
-@media (min-width: 100ch) {
-  body {
-    grid-template-areas:
-        "site-header-area site-main-area"
-        "primary-nav-area site-main-area"
-        "secondary-nav-area site-footer-area";
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 16ch fit-content(84ch); /* fit-content is necessary for the columns to flow */
-    height: 100dvh; /* enables fixed sidebar #1/2 */
-  }
-
-  .site-main {
-    overflow-y: auto; /* enables fixed sidebar #2/2 */
+    .site-logo {
+      display: block;
+      height: $site-header-height;
+      padding: 0;
+      margin: 0;
+    }
   }
 
   .primary-nav-toggle {
-    display: none;
+    position: fixed;
+    margin: ($site-header-height - $primary-nav-toggle-height)/2;
   }
+}
 
-  .secondary-nav-toggle {
-    display: none;
-  }
+.site-main {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-areas:
+          "page-content"
+          "site-footer";
+  grid-template-rows: 1fr auto;
 
-  .primary-nav {
-    grid-area: primary-nav-area;
-    position: initial;
-    margin-left: 1.5rem;
-  }
+  .page-content {
+    padding: $site-header-height $base-padding $base-padding;
+    grid-area: page-content;
 
-  nav ul ul {
-    display: none;
-  }
-
-  nav ul li:hover > ul {
-    display: block;
-  }
-
-
-  .secondary-nav {
-    grid-area: secondary-nav-area;
-    align-items: center; /*Léo : pour aligner le texte au centre du grid-area*/
-    background-color: transparent;
-    position: revert;
-    padding: 0;
-  }
-
-
-  .secondary-nav li {
-    display: inline-block; /* Léo : menu horizontal*/
-  }
-
-  .secondary-nav a,
-  .secondary-nav a strong,
-  .secondary-nav a.active,
-  .site-footer {
-    color: $primary-color;
-  }
-
-  .primary-nav--opened > * {
-    transform: none;
-  }
-
-  .secondary-nav--opened > * {
-    transform: none;
-  }
-
-  .secondary-nav {
-    padding: $base-padding;
+    /* https://css-tricks.com/snippets/css/style-links-depending-on-destination/ */
+    a:not([href^="http"]):before {
+      content: '→ ';
+    }
   }
 
   .site-footer {
-    display: block; /* only to allow align-items: end after */
-    text-align: left; /* move back to left */
-    background-color: initial;
+    grid-area: site-footer;
   }
+}
 
-  .site-footer p {
-    margin: 0;
+.site-aside {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+}
+
+.site-footer, .page-content, .site-header, .site-aside  {
+  transition: .3s ease-in-out;
+}
+
+.primary-nav--opened {
+  overflow: hidden;
+
+  .site-footer, .page-content, .site-header, .site-aside {
+    transform: translateX(200px);
   }
 }
