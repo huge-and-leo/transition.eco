@@ -1,3 +1,5 @@
+@import 'normalize';
+
 :root {
     --primary-color: #69BFAB;
     --secondary-color: #83D0F5;
@@ -100,7 +102,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-    height: clamp(0.75rem, 0.5rem + 0.9vw, 1rem);
+    height: clamp(0.75rem, 0.5rem + 0.9rem, 1rem);
     width: 1rem;
 }
 

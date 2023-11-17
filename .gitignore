@@ -2,3 +2,5 @@
 
 # auto generated when command `hugo` is ran
 public/
+
+resources/_gen/assets/scss/css
