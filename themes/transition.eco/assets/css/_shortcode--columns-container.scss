@@ -1,0 +1,14 @@
+.columns-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-gap: 1.5rem;
+}
+
+.columns-container__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.columns-container.align-last .columns-container__section > *:last-child {
+    margin-top: auto;
+}
