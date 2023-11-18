@@ -11,6 +11,7 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   max-width: 150ch;
+  overflow-x: hidden; /* remove scrollbar when closing open sidebar */
 }
 
 img {
@@ -87,7 +88,7 @@ a {
   width: 200px;
 }
 
-.site-footer, .page-content, .site-header, .site-aside  {
+.site-footer, .page-content, .site-header, .site-aside {
   transition: .3s ease-in-out;
 }
 
