@@ -32,6 +32,10 @@ nav > ul {
   margin: 0;
 }
 
+.secondary-nav li {
+  display: inline-block;
+}
+
 .site-footer {
   background: $primary-color;
   color: $white;
@@ -110,5 +114,35 @@ nav > ul {
 
   .site-footer, .page-content, .site-header, .site-aside {
     transform: translateX($site-aside-width);
+  }
+}
+
+@media screen and (min-width: $max-width) {
+  .primary-nav-toggle {
+    display: none;
+  }
+
+  .site-main {
+    margin-left: $site-aside-width;
+
+    .page-content {
+      padding-top: 0;
+    }
+  }
+
+  .site-aside {
+    left: 0;
+    top: $site-header-height;
+    min-height: calc(100dvh - 4rem);
+  }
+
+  .site-header {
+    left: 0;
+    background: none;
+    width: $site-aside-width;
+
+    .site-logo-container {
+      margin-left: $base-padding;
+    }
   }
 }
