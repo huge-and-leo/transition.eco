@@ -10,7 +10,7 @@ body {
   font-family: $body-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  max-width: 150ch;
+  max-width: $max-width;
   overflow-x: hidden; /* remove scrollbar when closing open sidebar */
 }
 
@@ -21,6 +21,15 @@ img {
 a {
   color: $secondary-color;
   text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav > ul {
+  padding: $base-padding;
+  margin: 0;
 }
 
 .site-footer {
@@ -42,7 +51,7 @@ a {
   width: 100%;
   background: $light-gray;
   position: fixed;
-  max-width: 150ch;
+  max-width: $max-width;
   top: 0;
 
   .site-logo-container {
@@ -83,9 +92,13 @@ a {
 
 .site-aside {
   position: fixed;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
-  left: -200px;
-  width: 200px;
+  left: -$site-aside-width;
+  width: $site-aside-width;
 }
 
 .site-footer, .page-content, .site-header, .site-aside {
@@ -96,6 +109,6 @@ a {
   overflow: hidden;
 
   .site-footer, .page-content, .site-header, .site-aside {
-    transform: translateX(200px);
+    transform: translateX($site-aside-width);
   }
 }
