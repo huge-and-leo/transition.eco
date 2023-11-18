@@ -1,7 +1,8 @@
 .primary-nav-toggle {
   width: $primary-nav-toggle-width;
   height: $primary-nav-toggle-height;
-  position: relative;
+  margin: ($site-header-height - $primary-nav-toggle-height)/2 $base-padding;
+  position: fixed;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
